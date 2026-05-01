@@ -1,18 +1,15 @@
 # MLP ancestral sequence reconstruction workflow
 
-This repository documents the workflow used to reconstruct ancestral sequences for a focal MLP clade. The analysis starts from a broad IPR000916 protein-region phylogeny, selects the focal MLP clade together with an outgroup clade, rebuilds the alignment for those sequences, and runs ancestral sequence reconstruction on the resulting codon alignment.
+This repository documents the workflow used to reconstruct ancestral sequences for an MLP-centered clade set selected from a broad IPR000916 protein-region phylogeny. The selected sequences were realigned, converted into a codon alignment, and analyzed with `ancseq`.
 
 The ancestral sequence reconstruction output is available in [data/anceseq_results_v1.3.0](data/anceseq_results_v1.3.0/).
-
-The focal and outgroup clades were selected from the midpoint-rooted IPR000916 tree:
-[data/ipr000916_full_tree/IPR000916_protein_regions_renamed.fasta.m100.famsa_aln.fasta.vft.midroot.tree](data/ipr000916_full_tree/IPR000916_protein_regions_renamed.fasta.m100.famsa_aln.fasta.vft.midroot.tree).
 
 ## Repository Contents
 
 - [data/](data/): input and intermediate FASTA, metadata, alignment, and tree files
 - [data/metadata/busco_summary.tsv](data/metadata/busco_summary.tsv): BUSCO summary for the assemblies listed in [data/metadata/NCBI_list.txt](data/metadata/NCBI_list.txt)
 - [data/ipr000916_full_tree/](data/ipr000916_full_tree/): combined IPR000916 region sequences and the broad protein-region tree
-- [data/two_mlp_clades/](data/two_mlp_clades/): selected focal MLP and outgroup clade sequences and codon alignment
+- [data/two_mlp_clades/](data/two_mlp_clades/): selected IPR000916 clade sequences and codon alignment used for ancestral sequence reconstruction
 - [data/anceseq_results_v1.3.0/](data/anceseq_results_v1.3.0/): ancestral sequence reconstruction output
 - [data/itol_annotations/](data/itol_annotations/): iTOL annotation files for tree visualization
 - [scripts/](scripts/): scripts used to regenerate each workflow step
@@ -23,7 +20,7 @@ The focal and outgroup clades were selected from the midpoint-rooted IPR000916 t
 0. [Generate the proteome dataset](docs/00_generate_proteome_dataset.md)
 1. [Prepare IPR000916 sequences](docs/01_prepare_ipr000916_sequences.md)
 2. [Build the full IPR000916 tree](docs/02_build_full_ipr000916_tree.md)
-3. [Extract the focal MLP and outgroup clades](docs/03_extract_focal_and_outgroup_clades.md)
+3. [Prepare the clade set for ancestral sequence reconstruction](docs/03_prepare_asr_clade_set.md)
 4. [Run ancestral sequence reconstruction](docs/04_run_ancestral_sequence_reconstruction.md)
 5. [Create iTOL annotations](docs/05_create_itol_annotations.md)
 

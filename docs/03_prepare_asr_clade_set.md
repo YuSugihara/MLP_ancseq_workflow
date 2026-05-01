@@ -1,8 +1,8 @@
-# Step 03: Extract the focal MLP and outgroup clades
+# Step 03: Prepare the clade set for ancestral sequence reconstruction
 
 ## Purpose
 
-Use selected tip labels from the full IPR000916 tree to extract the corresponding protein and CDS sequences from the focal MLP clade and the outgroup clade. Terminal stop codons are removed from CDS sequences, proteins are aligned with MAFFT global-pair mode, and CDS sequences are threaded onto the protein alignment.
+Use selected tip labels from the full IPR000916 tree to extract the protein and CDS sequences used for ancestral sequence reconstruction. Terminal stop codons are removed from CDS sequences, proteins are aligned with MAFFT global-pair mode, and CDS sequences are threaded onto the protein alignment.
 
 ## Inputs
 
@@ -17,7 +17,7 @@ The clade labels were selected from:
 ## Command
 
 ```bash
-scripts/03_extract_two_mlp_clades.sh
+scripts/03_prepare_asr_clade_set.sh
 ```
 
 ## Outputs

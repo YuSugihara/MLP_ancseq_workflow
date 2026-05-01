@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Filter the combined IPR000916 protein-region FASTA to sequences at least 100 amino acids long, align the retained proteins, infer a broad protein-region tree, and midpoint-root it. This tree was used to select the focal MLP clade and an outgroup clade for downstream reanalysis.
+Filter the combined IPR000916 protein-region FASTA to sequences at least 100 amino acids long, align the retained proteins, infer a broad protein-region tree, and midpoint-root it. This tree was used to select the IPR000916 clade set analyzed by ancestral sequence reconstruction.
 
 ## Input
 

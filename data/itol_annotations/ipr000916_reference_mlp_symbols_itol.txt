@@ -1,0 +1,25 @@
+DATASET_SYMBOL
+SEPARATOR TAB
+DATASET_LABEL	Reference MLP tips
+COLOR	#000000
+MAXIMUM_SIZE	16
+LEGEND_TITLE	Reference sequences
+LEGEND_SHAPES	2
+LEGEND_COLORS	#000000
+LEGEND_SHAPE_INVERT	1
+LEGEND_LABELS	Reference MLP
+DATA
+MLP-GR3_5-155	2	12	#000000	1	1	Reference MLP border
+MLP-GR3_5-155	2	8	#ffffff	1	1	Reference MLP fill
+CmMLP1_5-154	2	12	#000000	1	1	Reference MLP border
+CmMLP1_5-154	2	8	#ffffff	1	1	Reference MLP fill
+MLP-PG1_5-155	2	12	#000000	1	1	Reference MLP border
+MLP-PG1_5-155	2	8	#ffffff	1	1	Reference MLP fill
+CfMLP2_4-157	2	12	#000000	1	1	Reference MLP border
+CfMLP2_4-157	2	8	#ffffff	1	1	Reference MLP fill
+CfMLP1_4-157	2	12	#000000	1	1	Reference MLP border
+CfMLP1_4-157	2	8	#ffffff	1	1	Reference MLP fill
+CmMLP3_5-156	2	12	#000000	1	1	Reference MLP border
+CmMLP3_5-156	2	8	#ffffff	1	1	Reference MLP fill
+LcMLP2_4-156	2	12	#000000	1	1	Reference MLP border
+LcMLP2_4-156	2	8	#ffffff	1	1	Reference MLP fill

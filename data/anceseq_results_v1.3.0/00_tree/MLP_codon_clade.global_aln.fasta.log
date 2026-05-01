@@ -1,0 +1,591 @@
+IQ-TREE version 3.0.1 for MacOS ARM 64-bit built Jul  9 2025
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    N125613 (SSE4.2, 48 GB RAM)
+Command: iqtree -s anceseq_results_v1.3.0/00_tree/MLP_codon_clade.global_aln.fasta -st DNA -T 4 -m MFP -B 1000 -o GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071850.1_001929.1
+Seed:    848980 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Aug 20 23:01:37 2025
+Kernel:  SSE2 - 4 threads (14 CPU cores detected)
+
+Reading alignment file anceseq_results_v1.3.0/00_tree/MLP_codon_clade.global_aln.fasta ... Fasta format detected
+Reading fasta file: done in 0.000985146 secs using 90.75% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.000736952 secs using 73.55% CPU
+Alignment has 157 sequences with 786 columns, 656 distinct patterns
+451 parsimony-informative, 144 singleton sites, 191 constant sites
+                                                                                    Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 4.19617e-05 secs using 231.2% CPU
+   1  MLP-PG1                                                                              40.46%    passed     76.61%
+   2  GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001707.1              40.46%    passed     85.58%
+   3  CmMLP1                                                                               40.46%    passed     69.21%
+   4  GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000004.1_000138.1      40.46%    passed     69.21%
+   5  GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272023.1_000612.1        40.46%    passed     92.20%
+   6  GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066975.1_001674.1         40.46%    passed     91.40%
+   7  MLP-GR3                                                                              40.46%    passed     71.05%
+   8  GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001706.1              40.46%    passed     61.46%
+   9  GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000004.1_000137.1      40.46%    passed     64.31%
+  10  GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272023.1_000611.1        40.08%    passed     20.94%
+  11  GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066975.1_001673.1         40.46%    passed     70.06%
+  12  CmMLP3                                                                               39.69%    passed     79.29%
+  13  GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000004.1_000136.1      46.56%    passed     68.39%
+  14  GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001705.1              39.69%    passed     95.98%
+  15  GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272023.1_000610.1        39.69%    passed     93.21%
+  16  CfMLP2                                                                               39.69%    passed     81.57%
+  17  GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066975.1_001672.1         39.69%    passed     81.57%
+  18  CfMLP1                                                                               39.69%    passed     75.32%
+  19  GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002922.2_001684.1             39.69%    passed     54.26%
+  20  GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_ACHR03000024.1_000014.1         39.69%    passed     54.26%
+  21  GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046884.1_001733.1             52.67%    passed     85.71%
+  22  GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045833.1_001247.1                39.31%    passed     31.61%
+  23  GCA_047291755.1_Cucurbitales_Cucumis_sagittatus_Helixer_JBKKFV010000008.1_001260.1   37.40%    passed     76.63%
+  24  GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010037097.1_000002.1     35.88%    passed     71.92%
+  25  GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_000617.1             38.93%    passed     90.00%
+  26  GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_000961.1             38.93%    passed     75.49%
+  27  GCA_047291735.1_Cucurbitales_Cucumis_umbellatus_Helixer_JBKKFW010000022.1_000317.1   23.28%    passed      8.85%
+  28  GCA_047291755.1_Cucurbitales_Cucumis_sagittatus_Helixer_JBKKFV010000021.1_000321.1   38.93%    passed     39.24%
+  29  GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010000019.1_000324.1     37.02%    passed     20.03%
+  30  GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045837.1_000636.1                38.55%    passed     55.79%
+  31  GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000019.1_000344.1     41.22%    passed     57.24%
+  32  GCF_009727055.1_Cucurbitales_Benincasa_hispida_Helixer_NC_052349.1_000576.1          40.46%    passed     94.91%
+  33  GCA_039639715.1_Cucurbitales_Citrullus_lanatus_Helixer_CP155245.1_000602.1           40.84%    passed     76.28%
+  34  GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029396.1_000105.1            40.08%    passed     97.74%
+  35  GCF_009727055.1_Cucurbitales_Benincasa_hispida_Helixer_NC_052349.1_000577.1          40.84%    passed     36.78%
+  36  GCA_039639715.1_Cucurbitales_Citrullus_lanatus_Helixer_CP155245.1_000603.1           40.46%    passed     74.12%
+  37  GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000014.1_000142.1     40.46%    passed     91.84%
+  38  GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010000019.1_001114.1     49.62%    passed     46.93%
+  39  GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029406.1_002000.1            42.75%    passed     45.19%
+  40  GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029404.1_001490.1            40.84%    passed     99.29%
+  41  LcMLP2                                                                               40.08%    passed     99.97%
+  42  GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029396.1_001681.1            40.08%    passed     99.97%
+  43  GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071851.1_000513.1               40.84%    passed     78.91%
+  44  GCA_036507285.1_Cucurbitales_Trichosanthes_cucumerina_Helixer_CM071838.1_001300.1    41.98%    passed     99.86%
+  45  GCA_036507285.1_Cucurbitales_Trichosanthes_cucumerina_Helixer_CM071838.1_001299.1    40.46%    passed     99.20%
+  46  GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008919.1_001185.1              37.79%    passed     68.94%
+  47  GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000014.1_000197.1      40.46%    passed     40.30%
+  48  GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272034.1_000198.1        31.30%    passed     43.66%
+  49  GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066962.1_000196.1         38.17%    passed     31.40%
+  50  GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008919.1_001186.1              39.69%    passed     58.77%
+  51  GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000014.1_000198.1      39.69%    passed     61.55%
+  52  GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272034.1_000199.1        50.00%    passed     69.94%
+  53  GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066962.1_000197.1         40.46%    passed     65.67%
+  54  GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066962.1_000195.1         40.46%    passed     47.43%
+  55  GCF_009727055.1_Cucurbitales_Benincasa_hispida_Helixer_NC_052349.1_000579.1          40.08%    passed     23.23%
+  56  GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045837.1_000637.1                38.93%    passed     68.73%
+  57  GCA_047291735.1_Cucurbitales_Cucumis_umbellatus_Helixer_JBKKFW010000022.1_000318.1   40.08%    passed     63.69%
+  58  GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_000618.1             39.31%    passed     77.07%
+  59  GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_000962.1             38.93%    passed     89.20%
+  60  GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010000019.1_000326.1     40.08%    passed     61.07%
+  61  GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000019.1_000345.1     40.08%    passed     79.88%
+  62  GCF_009727055.1_Cucurbitales_Benincasa_hispida_Helixer_NC_052349.1_000578.1          40.08%    passed     86.00%
+  63  GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_000613.1             41.22%    passed     90.25%
+  64  GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_000960.1             41.22%    passed     81.60%
+  65  GCA_047291735.1_Cucurbitales_Cucumis_umbellatus_Helixer_JBKKFW010000022.1_000316.1   41.22%    passed     90.26%
+  66  GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000019.1_000343.1     41.22%    passed     98.88%
+  67  GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010000019.1_000323.1     41.22%    passed     93.78%
+  68  GCA_047291755.1_Cucurbitales_Cucumis_sagittatus_Helixer_JBKKFV010000021.1_000320.1   41.22%    passed     98.82%
+  69  GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045837.1_000635.1                41.22%    passed     93.65%
+  70  GCF_009727055.1_Cucurbitales_Benincasa_hispida_Helixer_NC_052349.1_000575.1          40.84%    passed     54.60%
+  71  GCA_039639715.1_Cucurbitales_Citrullus_lanatus_Helixer_CP155245.1_000601.1           40.84%    passed     55.59%
+  72  GCA_036507285.1_Cucurbitales_Trichosanthes_cucumerina_Helixer_CM071838.1_001298.1    40.84%    passed     96.72%
+  73  GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071851.1_000512.1               41.22%    passed     94.15%
+  74  GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029396.1_001680.1            41.22%    passed     96.58%
+  75  GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001703.1              41.60%    passed     34.41%
+  76  GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001702.1              41.60%    passed     34.41%
+  77  GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000004.1_000135.1      39.69%    passed     29.96%
+  78  GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066975.1_001671.1         41.60%    passed     17.19%
+  79  GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272023.1_000609.1        41.60%    passed     11.70%
+  80  GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001701.1              41.60%    passed     14.76%
+  81  GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000004.1_000134.1      41.60%    passed     12.64%
+  82  GCF_001995035.1_Cucurbitales_Momordica_charantia_Helixer_NW_019104512.1_000111.1     40.84%    passed     50.88%
+  83  GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_001469.1             42.37%    passed     73.50%
+  84  GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_003230.1             42.37%    passed     83.90%
+  85  GCA_047291735.1_Cucurbitales_Cucumis_umbellatus_Helixer_JBKKFW010000022.1_001086.1   42.37%    passed     76.19%
+  86  GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045837.1_001546.1                42.37%    passed     84.52%
+  87  GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000019.1_001120.1     42.37%    passed     85.97%
+  88  GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010000008.1_000282.1     42.37%    passed     83.60%
+  89  GCA_047291755.1_Cucurbitales_Cucumis_sagittatus_Helixer_JBKKFV010000021.1_001111.1   42.37%    passed     88.07%
+  90  GCA_039639715.1_Cucurbitales_Citrullus_lanatus_Helixer_CP155245.1_002027.1           42.37%    passed     48.36%
+  91  GCF_009727055.1_Cucurbitales_Benincasa_hispida_Helixer_NC_052349.1_000628.1          42.37%    passed     70.44%
+  92  GCA_047291755.1_Cucurbitales_Cucumis_sagittatus_Helixer_JBKKFV010003847.1_000001.1   41.98%    passed     76.32%
+  93  GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010030674.1_000002.1     41.98%    passed     60.92%
+  94  GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000002.1_000663.1     41.98%    passed     45.80%
+  95  GCA_039639715.1_Cucurbitales_Citrullus_lanatus_Helixer_CP155245.1_000606.1           42.75%    passed     87.24%
+  96  GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_000621.1             37.02%    passed     19.02%
+  97  GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_000965.1             37.02%    passed     24.26%
+  98  GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_000883.1             37.02%    passed      6.71%
+  99  GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_000400.1              42.75%    passed     93.92%
+ 100  GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000004.1_000967.1      42.75%    passed     94.44%
+ 101  GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272023.1_000393.1        42.75%    passed     83.18%
+ 102  GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066975.1_000394.1         42.75%    passed     56.50%
+ 103  GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001709.1              42.75%    passed     80.97%
+ 104  GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000004.1_000140.1      42.75%    passed     71.83%
+ 105  GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066975.1_001676.1         42.75%    passed     98.96%
+ 106  GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272023.1_000392.1        42.75%    passed     69.19%
+ 107  GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066975.1_000393.1         41.98%    passed     46.92%
+ 108  GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071850.1_001933.1               42.75%    passed     89.73%
+ 109  GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029396.1_001684.1            38.17%    passed     93.09%
+ 110  GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029395.1_001530.1            42.75%    passed     85.74%
+ 111  GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029396.1_001685.1            38.55%    passed     97.22%
+ 112  GCA_036507285.1_Cucurbitales_Trichosanthes_cucumerina_Helixer_CM071838.1_001302.1    30.53%    passed     67.49%
+ 113  GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071850.1_001932.1               43.13%    passed     97.13%
+ 114  GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272023.1_000614.1        41.98%    passed     75.01%
+ 115  GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000004.1_000139.1      41.98%    passed     53.51%
+ 116  GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001708.1              38.17%    passed     75.77%
+ 117  GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066963.1_000250.1         38.17%    passed     65.11%
+ 118  GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010074847.1_000001.1     42.37%    passed     69.50%
+ 119  GCA_047291755.1_Cucurbitales_Cucumis_sagittatus_Helixer_JBKKFV010000003.1_001304.1   37.02%    passed     62.16%
+ 120  GCA_039639715.1_Cucurbitales_Citrullus_lanatus_Helixer_CP155245.1_000605.1           41.98%    passed     80.28%
+ 121  GCA_036507285.1_Cucurbitales_Trichosanthes_cucumerina_Helixer_CM071838.1_001303.1    42.37%    passed     92.35%
+ 122  GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071850.1_001931.1               38.93%    passed     71.79%
+ 123  GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071850.1_001930.1               41.60%    passed     95.97%
+ 124  GCF_001995035.1_Cucurbitales_Momordica_charantia_Helixer_NW_019104512.1_000114.1     54.96%    passed     93.14%
+ 125  GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000020.1_000652.1     41.60%    passed     80.51%
+ 126  GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010000020.1_000641.1     42.75%    passed     82.84%
+ 127  GCA_047291755.1_Cucurbitales_Cucumis_sagittatus_Helixer_JBKKFV010000022.1_000630.1   41.60%    passed     67.96%
+ 128  GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_000623.1             41.60%    passed     77.64%
+ 129  GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_000966.1             41.60%    passed     89.53%
+ 130  GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045837.1_000640.1                41.98%    passed     74.45%
+ 131  GCA_039639715.1_Cucurbitales_Citrullus_lanatus_Helixer_CP155245.1_002026.1           41.22%    passed     84.23%
+ 132  GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_000624.1             41.60%    passed     77.77%
+ 133  GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_003231.1             27.48%    passed     84.42%
+ 134  GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045837.1_000641.1                41.60%    passed     73.89%
+ 135  GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000020.1_000653.1     41.22%    passed     58.73%
+ 136  GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010000020.1_000642.1     41.22%    passed     45.70%
+ 137  GCF_009727055.1_Cucurbitales_Benincasa_hispida_Helixer_NC_052349.1_001718.1          40.84%    passed     81.32%
+ 138  GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066975.1_001677.1         36.64%    passed     64.94%
+ 139  GCA_036507285.1_Cucurbitales_Trichosanthes_cucumerina_Helixer_CM071838.1_001304.1    42.37%    passed     94.42%
+ 140  GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071851.1_000515.1               41.98%    passed     91.84%
+ 141  GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029396.1_001686.1            40.84%    passed     95.17%
+ 142  GCF_001995035.1_Cucurbitales_Momordica_charantia_Helixer_NW_019104512.1_000115.1     41.22%    passed     61.68%
+ 143  GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_000619.1             41.98%    passed     97.64%
+ 144  GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_000963.1             40.84%    passed     99.14%
+ 145  GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045837.1_000638.1                41.60%    passed     98.19%
+ 146  GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000019.1_000346.1     41.60%    passed     97.47%
+ 147  GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010000019.1_000327.1     41.22%    passed     98.54%
+ 148  GCA_039639715.1_Cucurbitales_Citrullus_lanatus_Helixer_CP155245.1_000604.1           41.60%    passed     63.92%
+ 149  GCA_047291735.1_Cucurbitales_Cucumis_umbellatus_Helixer_JBKKFW010000022.1_000319.1   48.85%    passed     92.76%
+ 150  GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045837.1_000639.1                41.22%    passed     84.80%
+ 151  GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_000620.1             42.37%    passed     86.02%
+ 152  GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_000964.1             41.22%    passed     86.65%
+ 153  GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000019.1_000347.1     27.48%    passed     98.29%
+ 154  GCF_009727055.1_Cucurbitales_Benincasa_hispida_Helixer_NC_052349.1_001768.1          41.22%    passed     80.77%
+ 155  GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029396.1_001683.1            41.98%    passed     66.27%
+ 156  GCF_001995035.1_Cucurbitales_Momordica_charantia_Helixer_NW_019104512.1_000112.1     44.66%    passed     63.74%
+ 157  GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071850.1_001929.1               42.37%    passed     81.15%
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                40.76%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000004.1_000138.1 is identical to CmMLP1 but kept for subsequent analysis
+NOTE: GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066975.1_001672.1 is identical to CfMLP2 but kept for subsequent analysis
+NOTE: GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_ACHR03000024.1_000014.1 is identical to GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002922.2_001684.1 but kept for subsequent analysis
+NOTE: GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029396.1_001681.1 is identical to LcMLP2 but kept for subsequent analysis
+NOTE: GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001702.1 is identical to GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001703.1 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.000275135 secs using 86.5% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.007 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 0.230831 secs using 111.5% CPU
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -21601.887
+Optimal log-likelihood: -21601.776
+Rate parameters:  A-C: 1.57983  A-G: 2.55304  A-T: 1.14136  C-G: 2.74944  C-T: 3.61270  G-T: 1.00000
+Base frequencies:  A: 0.329  C: 0.152  G: 0.232  T: 0.287
+Proportion of invariable sites: 0.060
+Gamma shape alpha: 2.425
+Parameters optimization took 1 rounds (0.057 sec)
+Time for fast ML tree search: 0.501 seconds
+
+NOTE: ModelFinder requires 36 MB RAM!
+ModelFinder will test up to 968 DNA models (sample size: 786 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  JC            22592.347    311 45806.695    46216.113    47258.119
+  2  JC+I          22352.123    312 45328.246    45741.168    46784.336
+  3  JC+G4         21977.915    312 44579.829    44992.751    46035.920
+  4  JC+I+G4       21952.567    313 44531.135    44947.584    45991.892
+  5  JC+R2         22054.488    313 44734.976    45151.425    46195.733
+  6  JC+R3         21963.898    315 44557.796    44981.370    46027.887
+  7  JC+R4         21944.193    317 44522.386    44953.181    46001.811
+  8  JC+R5         21943.785    319 44525.569    44963.681    46014.329
+ 14  JC+I+R2       21994.155    314 44616.311    45036.311    46081.735
+ 15  JC+I+R3       21952.021    316 44536.041    44963.214    46010.799
+ 16  JC+I+R4       21942.114    318 44520.228    44954.669    46004.320
+ 17  JC+I+R5       21941.986    320 44523.971    44965.778    46017.398
+ 26  JC+I+G4       21952.567    313 44531.135    44947.584    45991.892
+ 29  JC+R4         21944.193    317 44522.386    44953.181    46001.811
+ 48  F81+I+G4      21952.571    313 44531.142    44947.591    45991.899
+ 51  F81+R4        21943.965    317 44521.929    44952.724    46001.355
+ 70  F81+F+I+G4    21962.854    316 44557.708    44984.880    46032.466
+ 73  F81+F+R4      21957.419    320 44554.838    44996.644    46048.264
+ 92  K2P+I+G4      21738.221    314 44104.442    44524.442    45569.866
+ 95  K2P+R4        21729.195    318 44094.391    44528.832    45578.483
+114  K2P+I+G4      21738.221    314 44104.442    44524.442    45569.866
+117  K2P+R4        21729.195    318 44094.391    44528.832    45578.483
+136  HKY+I+G4      21738.220    314 44104.440    44524.440    45569.864
+139  HKY+R4        21729.007    318 44094.014    44528.455    45578.106
+158  HKY+F+I+G4    21735.556    317 44105.112    44535.906    45584.537
+161  HKY+F+R4      21730.306    321 44102.611    44548.137    45600.705
+180  TNe+I+G4      21738.090    315 44106.180    44529.754    45576.271
+183  TNe+R4        21727.948    319 44093.896    44532.008    45582.656
+202  TNe+I+G4      21738.090    315 44106.180    44529.754    45576.271
+205  TNe+R4        21727.948    319 44093.896    44532.008    45582.656
+224  TN+I+G4       21738.090    315 44106.181    44529.755    45576.272
+227  TN+R4         21727.775    319 44093.549    44531.661    45582.309
+246  TN+F+I+G4     21714.724    318 44065.448    44499.889    45549.540
+249  TN+F+R4       21710.093    322 44064.186    44513.456    45566.946
+268  K3P+I+G4      21714.994    315 44059.988    44483.563    45530.080
+271  K3P+R4        21705.456    319 44048.911    44487.023    45537.670
+290  K3P+I+G4      21714.994    315 44059.988    44483.563    45530.080
+293  K3P+R4        21705.456    319 44048.911    44487.023    45537.670
+312  K3Pu+I+G4     21714.994    315 44059.988    44483.563    45530.080
+315  K3Pu+R4       21705.297    319 44048.595    44486.706    45537.354
+334  K3Pu+F+I+G4   21723.587    318 44083.174    44517.615    45567.266
+337  K3Pu+F+R4     21717.590    322 44079.181    44528.451    45581.941
+356  TPM2+I+G4     21737.924    315 44105.848    44529.423    45575.940
+359  TPM2+R4       21728.199    319 44094.399    44532.510    45583.158
+378  TPM2+I+G4     21737.924    315 44105.848    44529.423    45575.940
+381  TPM2+R4       21728.199    319 44094.399    44532.510    45583.158
+400  TPM2u+I+G4    21737.924    315 44105.848    44529.423    45575.939
+403  TPM2u+R4      21728.037    319 44094.074    44532.186    45582.833
+422  TPM2u+F+I+G4  21725.621    318 44087.241    44521.682    45571.333
+425  TPM2u+F+R4    21720.989    322 44085.979    44535.249    45588.739
+444  TPM3+I+G4     21733.604    315 44097.208    44520.783    45567.300
+447  TPM3+R4       21724.339    319 44086.679    44524.790    45575.438
+466  TPM3+I+G4     21733.604    315 44097.208    44520.783    45567.300
+469  TPM3+R4       21724.339    319 44086.679    44524.790    45575.438
+488  TPM3u+I+G4    21733.604    315 44097.208    44520.783    45567.299
+491  TPM3u+R4      21724.248    319 44086.496    44524.608    45575.256
+510  TPM3u+F+I+G4  21656.199    318 43948.397    44382.839    45432.490
+513  TPM3u+F+R4    21652.153    322 43948.307    44397.577    45451.067
+532  TIMe+I+G4     21714.869    316 44061.737    44488.910    45536.496
+535  TIMe+R4       21704.232    320 44048.464    44490.270    45541.890
+554  TIMe+I+G4     21714.869    316 44061.737    44488.910    45536.496
+557  TIMe+R4       21704.232    320 44048.464    44490.270    45541.890
+576  TIM+I+G4      21714.869    316 44061.738    44488.911    45536.496
+579  TIM+R4        21704.078    320 44048.157    44489.963    45541.583
+598  TIM+F+I+G4    21702.551    319 44043.101    44481.213    45531.861
+601  TIM+F+R4      21697.372    323 44040.744    44493.783    45548.171
+620  TIM2e+I+G4    21737.783    316 44107.566    44534.739    45582.325
+623  TIM2e+R4      21726.945    320 44093.890    44535.697    45587.316
+642  TIM2e+I+G4    21737.783    316 44107.566    44534.739    45582.325
+645  TIM2e+R4      21726.945    320 44093.890    44535.697    45587.316
+664  TIM2+I+G4     21737.784    316 44107.567    44534.740    45582.326
+667  TIM2+R4       21726.794    320 44093.589    44535.395    45587.015
+686  TIM2+F+I+G4   21705.215    319 44048.430    44486.542    45537.190
+689  TIM2+F+R4     21701.102    323 44048.205    44501.244    45555.632
+708  TIM3e+I+G4    21733.378    316 44098.756    44525.929    45573.514
+711  TIM3e+R4      21723.130    320 44086.260    44528.067    45579.687
+730  TIM3e+I+G4    21733.378    316 44098.756    44525.929    45573.514
+733  TIM3e+R4      21723.130    320 44086.260    44528.067    45579.687
+752  TIM3+I+G4     21733.379    316 44098.759    44525.931    45573.517
+755  TIM3+R4       21722.979    320 44085.958    44527.764    45579.384
+774  TIM3+F+I+G4   21634.986    319 43907.971    44346.083    45396.730
+777  TIM3+F+R4     21630.624    323 43907.248    44360.287    45414.675
+796  TVMe+I+G4     21708.871    317 44051.742    44482.537    45531.168
+799  TVMe+R4       21698.695    321 44039.390    44484.916    45537.484
+818  TVMe+I+G4     21708.871    317 44051.742    44482.537    45531.168
+821  TVMe+R4       21698.695    321 44039.390    44484.916    45537.484
+840  TVM+I+G4      21708.872    317 44051.744    44482.539    45531.169
+843  TVM+R4        21698.561    321 44039.122    44484.647    45537.215
+862  TVM+F+I+G4    21622.755    320 43885.510    44327.317    45378.937
+865  TVM+F+R4      21619.045    324 43886.090    44342.923    45398.184
+884  SYM+I+G4      21708.650    318 44053.299    44487.740    45537.392
+887  SYM+R4        21697.841    322 44039.682    44488.952    45542.442
+906  SYM+I+G4      21708.650    318 44053.299    44487.740    45537.392
+909  SYM+R4        21697.841    322 44039.682    44488.952    45542.442
+928  GTR+I+G4      21708.650    318 44053.300    44487.741    45537.392
+931  GTR+R4        21697.780    322 44039.559    44488.829    45542.319
+950  GTR+F+I+G4    21601.785    321 43845.570    44291.096    45343.663
+953  GTR+F+R4      21597.660    325 43845.320    44305.972    45362.081
+Akaike Information Criterion:           GTR+F+R4
+Corrected Akaike Information Criterion: GTR+F+I+G4
+Bayesian Information Criterion:         GTR+F+I+G4
+Best-fit model: GTR+F+I+G4 chosen according to BIC
+
+All model information printed to anceseq_results_v1.3.0/00_tree/MLP_codon_clade.global_aln.fasta.model.gz
+CPU time for ModelFinder: 32.596 seconds (0h:0m:32s)
+Wall-clock time for ModelFinder: 15.667 seconds (0h:0m:15s)
+Generating 1000 samples for ultrafast bootstrap (seed: 848980)...
+
+NOTE: 15 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 2.420 / Estimate: 0.000, 1.565 / LogL: -21631.900
+Init pinv, alpha: 0.027, 2.420 / Estimate: 0.059, 2.409 / LogL: -21601.794
+Init pinv, alpha: 0.054, 2.420 / Estimate: 0.059, 2.413 / LogL: -21601.790
+Init pinv, alpha: 0.081, 2.420 / Estimate: 0.061, 2.428 / LogL: -21601.792
+Init pinv, alpha: 0.108, 2.420 / Estimate: 0.061, 2.426 / LogL: -21601.789
+Init pinv, alpha: 0.135, 2.420 / Estimate: 0.061, 2.429 / LogL: -21601.793
+Init pinv, alpha: 0.162, 2.420 / Estimate: 0.061, 2.431 / LogL: -21601.796
+Init pinv, alpha: 0.189, 2.420 / Estimate: 0.061, 2.433 / LogL: -21601.801
+Init pinv, alpha: 0.216, 2.420 / Estimate: 0.061, 2.426 / LogL: -21601.791
+Init pinv, alpha: 0.243, 2.420 / Estimate: 0.061, 2.426 / LogL: -21601.792
+Optimal pinv,alpha: 0.061, 2.426 / LogL: -21601.789
+
+Parameters optimization took 1.464 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.008219 secs using 393.6% CPU
+Computing ML distances took 0.008381 sec (of wall-clock time) 0.032598 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000134945 secs using 276.4% CPU
+Constructing RapidNJ tree: done in 0.00597095 secs using 96.87% CPU
+Computing RapidNJ tree took 0.006148 sec (of wall-clock time) 0.006195 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -21743.089
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.716 second
+Computing log-likelihood of 98 initial trees ... 1.948 seconds
+Current best score: -21601.789
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 0.119391 secs using 118.4% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -21601.786
+Optimizing NNI: done in 0.374246 secs using 120.6% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -21601.239
+Optimizing NNI: done in 0.358372 secs using 119.8% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -21600.464
+Optimizing NNI: done in 0.386834 secs using 119.8% CPU
+Optimizing NNI: done in 0.368167 secs using 119.8% CPU
+Optimizing NNI: done in 0.3466 secs using 119.7% CPU
+Optimizing NNI: done in 0.372641 secs using 119.8% CPU
+Optimizing NNI: done in 0.36139 secs using 119.6% CPU
+Optimizing NNI: done in 0.391886 secs using 119.8% CPU
+Optimizing NNI: done in 0.373681 secs using 117.4% CPU
+Iteration 10 / LogL: -21602.816 / Time: 0h:0m:23s
+Optimizing NNI: done in 0.424053 secs using 115.9% CPU
+Optimizing NNI: done in 0.381556 secs using 118.3% CPU
+Optimizing NNI: done in 0.420972 secs using 115.2% CPU
+Optimizing NNI: done in 0.393351 secs using 117% CPU
+Optimizing NNI: done in 0.349763 secs using 119% CPU
+Optimizing NNI: done in 0.358594 secs using 118.9% CPU
+Optimizing NNI: done in 0.377574 secs using 118.8% CPU
+Optimizing NNI: done in 0.391045 secs using 118.8% CPU
+Optimizing NNI: done in 0.376936 secs using 118.5% CPU
+Optimizing NNI: done in 0.370449 secs using 119.4% CPU
+Iteration 20 / LogL: -21601.243 / Time: 0h:0m:27s
+Finish initializing candidate tree set (13)
+Current best tree score: -21600.464 / CPU time: 10.084
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 0.504743 secs using 110.5% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -21600.161
+Optimizing NNI: done in 0.526955 secs using 108.4% CPU
+Optimizing NNI: done in 0.502043 secs using 111% CPU
+Optimizing NNI: done in 0.607634 secs using 107.2% CPU
+Optimizing NNI: done in 0.439449 secs using 110.2% CPU
+Optimizing NNI: done in 0.567853 secs using 109.3% CPU
+Optimizing NNI: done in 0.494644 secs using 109% CPU
+Optimizing NNI: done in 0.601047 secs using 107.6% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 28: -21599.758
+Optimizing NNI: done in 0.486423 secs using 112.2% CPU
+Optimizing NNI: done in 0.530365 secs using 108.8% CPU
+Iteration 30 / LogL: -21601.595 / Time: 0h:0m:32s (0h:0m:57s left)
+Optimizing NNI: done in 0.591892 secs using 108.9% CPU
+Optimizing NNI: done in 0.515296 secs using 111.7% CPU
+Optimizing NNI: done in 0.478224 secs using 110.2% CPU
+Optimizing NNI: done in 0.531339 secs using 110.5% CPU
+Optimizing NNI: done in 0.529628 secs using 110.8% CPU
+Optimizing NNI: done in 0.491534 secs using 110.9% CPU
+Optimizing NNI: done in 0.524941 secs using 110.5% CPU
+Optimizing NNI: done in 0.468377 secs using 110.4% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 38: -21599.039
+Optimizing NNI: done in 0.500649 secs using 107.5% CPU
+Optimizing NNI: done in 0.493393 secs using 109.9% CPU
+Iteration 40 / LogL: -21601.063 / Time: 0h:0m:37s (0h:0m:55s left)
+Optimizing NNI: done in 0.487993 secs using 111.7% CPU
+Optimizing NNI: done in 0.487311 secs using 109.9% CPU
+Optimizing NNI: done in 0.521486 secs using 107% CPU
+Optimizing NNI: done in 0.489029 secs using 108.2% CPU
+Optimizing NNI: done in 0.493466 secs using 111.2% CPU
+Optimizing NNI: done in 0.514763 secs using 109.8% CPU
+Optimizing NNI: done in 0.456013 secs using 109.5% CPU
+Optimizing NNI: done in 0.503451 secs using 109.7% CPU
+Optimizing NNI: done in 0.59314 secs using 108.5% CPU
+Optimizing NNI: done in 0.583044 secs using 106.1% CPU
+Iteration 50 / LogL: -21645.710 / Time: 0h:0m:43s (0h:0m:49s left)
+Log-likelihood cutoff on original alignment: -21635.093
+Optimizing NNI: done in 0.507453 secs using 108.6% CPU
+Optimizing NNI: done in 0.472025 secs using 108.7% CPU
+Optimizing NNI: done in 0.488816 secs using 107.6% CPU
+Optimizing NNI: done in 0.55486 secs using 108.7% CPU
+Optimizing NNI: done in 0.439161 secs using 108.5% CPU
+Optimizing NNI: done in 0.480223 secs using 110% CPU
+Optimizing NNI: done in 0.484997 secs using 108.9% CPU
+Optimizing NNI: done in 0.461127 secs using 108.5% CPU
+Optimizing NNI: done in 0.486673 secs using 109.2% CPU
+Optimizing NNI: done in 0.512576 secs using 110.1% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 60: -21599.014
+Iteration 60 / LogL: -21599.014 / Time: 0h:0m:48s (0h:0m:55s left)
+Optimizing NNI: done in 0.464192 secs using 110.2% CPU
+Optimizing NNI: done in 0.453468 secs using 109.1% CPU
+Optimizing NNI: done in 0.451543 secs using 109.6% CPU
+Optimizing NNI: done in 0.564115 secs using 109.7% CPU
+Optimizing NNI: done in 0.459881 secs using 111.1% CPU
+Optimizing NNI: done in 0.484947 secs using 109.6% CPU
+Optimizing NNI: done in 0.499936 secs using 110.1% CPU
+Optimizing NNI: done in 0.514975 secs using 108.8% CPU
+Optimizing NNI: done in 0.478319 secs using 109.1% CPU
+Optimizing NNI: done in 0.479009 secs using 109.7% CPU
+Iteration 70 / LogL: -21602.023 / Time: 0h:0m:53s (0h:0m:48s left)
+Optimizing NNI: done in 0.420819 secs using 110.3% CPU
+Optimizing NNI: done in 0.47698 secs using 108.5% CPU
+Optimizing NNI: done in 0.486894 secs using 112.3% CPU
+Optimizing NNI: done in 0.452701 secs using 110.1% CPU
+Optimizing NNI: done in 0.50518 secs using 111.9% CPU
+Optimizing NNI: done in 0.563287 secs using 109.3% CPU
+Optimizing NNI: done in 0.521187 secs using 110.6% CPU
+Optimizing NNI: done in 0.510284 secs using 110.5% CPU
+Optimizing NNI: done in 0.478906 secs using 110.9% CPU
+UPDATE BEST LOG-LIKELIHOOD: -21599.013
+Optimizing NNI: done in 0.59019 secs using 110.3% CPU
+Iteration 80 / LogL: -21599.058 / Time: 0h:0m:58s (0h:0m:43s left)
+Optimizing NNI: done in 0.488202 secs using 109.7% CPU
+Optimizing NNI: done in 0.492329 secs using 109.4% CPU
+Optimizing NNI: done in 0.558603 secs using 110.8% CPU
+Optimizing NNI: done in 0.531669 secs using 109.1% CPU
+Optimizing NNI: done in 0.53669 secs using 109.2% CPU
+Optimizing NNI: done in 0.469001 secs using 109.6% CPU
+Optimizing NNI: done in 0.480052 secs using 109.2% CPU
+Optimizing NNI: done in 0.611254 secs using 107.6% CPU
+Optimizing NNI: done in 0.487028 secs using 110% CPU
+Optimizing NNI: done in 0.501418 secs using 110.4% CPU
+UPDATE BEST LOG-LIKELIHOOD: -21599.012
+Iteration 90 / LogL: -21599.012 / Time: 0h:1m:3s (0h:0m:37s left)
+Optimizing NNI: done in 0.51949 secs using 110.5% CPU
+Optimizing NNI: done in 0.51207 secs using 109.3% CPU
+Optimizing NNI: done in 0.49302 secs using 106.3% CPU
+Optimizing NNI: done in 0.520117 secs using 109.6% CPU
+Optimizing NNI: done in 0.503342 secs using 108.9% CPU
+Optimizing NNI: done in 0.480085 secs using 110.3% CPU
+Optimizing NNI: done in 0.48283 secs using 109.9% CPU
+Optimizing NNI: done in 0.442697 secs using 109.4% CPU
+Optimizing NNI: done in 0.549824 secs using 109.8% CPU
+Optimizing NNI: done in 0.513925 secs using 109.9% CPU
+Iteration 100 / LogL: -21599.012 / Time: 0h:1m:8s (0h:0m:31s left)
+Log-likelihood cutoff on original alignment: -21636.244
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Optimizing NNI: done in 0.521442 secs using 109.6% CPU
+Optimizing NNI: done in 0.601926 secs using 109.1% CPU
+Optimizing NNI: done in 0.44986 secs using 108.5% CPU
+Optimizing NNI: done in 0.483851 secs using 109.5% CPU
+Optimizing NNI: done in 0.468288 secs using 111.1% CPU
+Optimizing NNI: done in 0.515097 secs using 110.1% CPU
+Optimizing NNI: done in 0.55893 secs using 109.6% CPU
+Optimizing NNI: done in 0.509786 secs using 110.2% CPU
+Optimizing NNI: done in 0.590827 secs using 109.4% CPU
+Optimizing NNI: done in 0.359354 secs using 107.2% CPU
+Iteration 110 / LogL: -21603.791 / Time: 0h:1m:13s (0h:0m:47s left)
+Optimizing NNI: done in 0.411207 secs using 109.4% CPU
+Optimizing NNI: done in 0.465617 secs using 110% CPU
+Optimizing NNI: done in 0.480243 secs using 109.7% CPU
+Optimizing NNI: done in 0.532773 secs using 104.3% CPU
+Optimizing NNI: done in 0.491518 secs using 111.1% CPU
+Optimizing NNI: done in 0.486373 secs using 109.1% CPU
+Optimizing NNI: done in 0.428441 secs using 108.6% CPU
+Optimizing NNI: done in 0.472868 secs using 108% CPU
+Optimizing NNI: done in 0.413136 secs using 107.7% CPU
+Optimizing NNI: done in 0.49952 secs using 108.8% CPU
+Iteration 120 / LogL: -21599.760 / Time: 0h:1m:18s (0h:0m:42s left)
+Optimizing NNI: done in 0.449989 secs using 108.4% CPU
+Optimizing NNI: done in 0.466249 secs using 110.9% CPU
+Optimizing NNI: done in 0.442386 secs using 110.6% CPU
+Optimizing NNI: done in 0.54993 secs using 107.8% CPU
+Optimizing NNI: done in 0.476805 secs using 108.1% CPU
+UPDATE BEST LOG-LIKELIHOOD: -21599.012
+Optimizing NNI: done in 0.414342 secs using 109.5% CPU
+Optimizing NNI: done in 0.482021 secs using 109.3% CPU
+Optimizing NNI: done in 0.497767 secs using 109.8% CPU
+Optimizing NNI: done in 0.497611 secs using 109.9% CPU
+Optimizing NNI: done in 0.601682 secs using 109.8% CPU
+Iteration 130 / LogL: -21600.032 / Time: 0h:1m:23s (0h:0m:36s left)
+Optimizing NNI: done in 0.559321 secs using 109.9% CPU
+Optimizing NNI: done in 0.519372 secs using 110.1% CPU
+Optimizing NNI: done in 0.470588 secs using 110.4% CPU
+Optimizing NNI: done in 0.543976 secs using 108.5% CPU
+Optimizing NNI: done in 0.435616 secs using 110.4% CPU
+Optimizing NNI: done in 0.499877 secs using 109.1% CPU
+Optimizing NNI: done in 0.496286 secs using 112.3% CPU
+Optimizing NNI: done in 0.525901 secs using 110.9% CPU
+Optimizing NNI: done in 0.468923 secs using 110.4% CPU
+Optimizing NNI: done in 0.449266 secs using 109.6% CPU
+Iteration 140 / LogL: -21599.044 / Time: 0h:1m:28s (0h:0m:31s left)
+Optimizing NNI: done in 0.497106 secs using 106.7% CPU
+Optimizing NNI: done in 0.607155 secs using 109% CPU
+Optimizing NNI: done in 0.463378 secs using 110.1% CPU
+Optimizing NNI: done in 0.453788 secs using 111.2% CPU
+Optimizing NNI: done in 0.46522 secs using 107.1% CPU
+Optimizing NNI: done in 0.460456 secs using 109.1% CPU
+Optimizing NNI: done in 0.520236 secs using 108.4% CPU
+Optimizing NNI: done in 0.479627 secs using 107.8% CPU
+Optimizing NNI: done in 0.484799 secs using 110.1% CPU
+Optimizing NNI: done in 0.535949 secs using 111% CPU
+Iteration 150 / LogL: -21599.401 / Time: 0h:1m:33s (0h:0m:26s left)
+Log-likelihood cutoff on original alignment: -21637.174
+Optimizing NNI: done in 0.527345 secs using 108.4% CPU
+Optimizing NNI: done in 0.486367 secs using 108.9% CPU
+Optimizing NNI: done in 0.44321 secs using 108.4% CPU
+Optimizing NNI: done in 0.51794 secs using 106.9% CPU
+Optimizing NNI: done in 0.482994 secs using 105.3% CPU
+Optimizing NNI: done in 0.532487 secs using 109.3% CPU
+Optimizing NNI: done in 0.487082 secs using 110.3% CPU
+Optimizing NNI: done in 0.535535 secs using 110.8% CPU
+Optimizing NNI: done in 0.456023 secs using 108% CPU
+Optimizing NNI: done in 0.503134 secs using 110.3% CPU
+Iteration 160 / LogL: -21601.217 / Time: 0h:1m:38s (0h:0m:20s left)
+Optimizing NNI: done in 0.452859 secs using 110.7% CPU
+TREE SEARCH COMPLETED AFTER 161 ITERATIONS / Time: 0h:1m:38s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -21599.012
+Optimal log-likelihood: -21599.010
+Rate parameters:  A-C: 1.58973  A-G: 2.58150  A-T: 1.14599  C-G: 2.78878  C-T: 3.62826  G-T: 1.00000
+Base frequencies:  A: 0.329  C: 0.152  G: 0.232  T: 0.287
+Proportion of invariable sites: 0.060
+Gamma shape alpha: 2.438
+Parameters optimization took 1 rounds (0.032 sec)
+BEST SCORE FOUND : -21599.010
+Creating bootstrap support values...
+Split supports printed to NEXUS file anceseq_results_v1.3.0/00_tree/MLP_codon_clade.global_aln.fasta.splits.nex
+Total tree length: 10.588
+
+Total number of iterations: 161
+CPU time used for tree search: 90.381 sec (0h:1m:30s)
+Wall-clock time used for tree search: 81.660 sec (0h:1m:21s)
+Total CPU time used: 126.326 sec (0h:2m:6s)
+Total wall-clock time used: 99.085 sec (0h:1m:39s)
+
+Computing bootstrap consensus tree...
+Reading input file anceseq_results_v1.3.0/00_tree/MLP_codon_clade.global_aln.fasta.splits.nex...
+157 taxa and 535 splits.
+Consensus tree written to anceseq_results_v1.3.0/00_tree/MLP_codon_clade.global_aln.fasta.contree
+Reading input trees file anceseq_results_v1.3.0/00_tree/MLP_codon_clade.global_aln.fasta.contree
+Log-likelihood of consensus tree: -21599.175
+
+Analysis results written to: 
+  IQ-TREE report:                anceseq_results_v1.3.0/00_tree/MLP_codon_clade.global_aln.fasta.iqtree
+  Maximum-likelihood tree:       anceseq_results_v1.3.0/00_tree/MLP_codon_clade.global_aln.fasta.treefile
+  Likelihood distances:          anceseq_results_v1.3.0/00_tree/MLP_codon_clade.global_aln.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          anceseq_results_v1.3.0/00_tree/MLP_codon_clade.global_aln.fasta.splits.nex
+  Consensus tree:                anceseq_results_v1.3.0/00_tree/MLP_codon_clade.global_aln.fasta.contree
+  Screen log file:               anceseq_results_v1.3.0/00_tree/MLP_codon_clade.global_aln.fasta.log
+
+Date and Time: Wed Aug 20 23:03:17 2025

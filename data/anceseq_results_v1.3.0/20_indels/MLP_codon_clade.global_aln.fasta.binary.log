@@ -1,0 +1,204 @@
+IQ-TREE version 3.0.1 for MacOS ARM 64-bit built Jul  9 2025
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    N125613 (SSE4.2, 48 GB RAM)
+Command: iqtree -asr -s anceseq_results_v1.3.0/20_indels/MLP_codon_clade.global_aln.fasta.binary -te anceseq_results_v1.3.0/00_tree/MLP_codon_clade.global_aln.fasta.treefile -st BIN -T 4 -blfix -keep_empty_seq -m JC2 -o GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071850.1_001929.1
+Seed:    404179 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Aug 20 23:03:20 2025
+Kernel:  SSE2 - 4 threads (14 CPU cores detected)
+
+Reading alignment file anceseq_results_v1.3.0/20_indels/MLP_codon_clade.global_aln.fasta.binary ... Fasta format detected
+Reading fasta file: done in 0.000989914 secs using 88.29% CPU
+Alignment most likely contains binary sequences
+Constructing alignment: done in 0.000472069 secs using 72.02% CPU
+Alignment has 157 sequences with 786 columns, 70 distinct patterns
+366 parsimony-informative, 195 singleton sites, 224 constant sites
+                                                                                    Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 1.69277e-05 secs using 118.1% CPU
+   1  MLP-PG1                                                                               0.00%    passed     86.13%
+   2  GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001707.1               0.00%    passed     86.13%
+   3  CmMLP1                                                                                0.00%    passed     86.13%
+   4  GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000004.1_000138.1       0.00%    passed     86.13%
+   5  GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272023.1_000612.1         0.00%    passed     86.13%
+   6  GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066975.1_001674.1          0.00%    passed     86.13%
+   7  MLP-GR3                                                                               0.00%    passed     86.13%
+   8  GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001706.1               0.00%    passed     86.13%
+   9  GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000004.1_000137.1       0.00%    passed     86.13%
+  10  GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272023.1_000611.1         0.00%    passed     69.47%
+  11  GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066975.1_001673.1          0.00%    passed     86.13%
+  12  CmMLP3                                                                                0.00%    passed     54.17%
+  13  GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000004.1_000136.1       0.00%    failed      0.09%
+  14  GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001705.1               0.00%    passed     54.17%
+  15  GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272023.1_000610.1         0.00%    passed     54.17%
+  16  CfMLP2                                                                                0.00%    passed     54.17%
+  17  GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066975.1_001672.1          0.00%    passed     54.17%
+  18  CfMLP1                                                                                0.00%    passed     54.17%
+  19  GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002922.2_001684.1              0.00%    passed     54.17%
+  20  GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_ACHR03000024.1_000014.1          0.00%    passed     54.17%
+  21  GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046884.1_001733.1              0.00%    failed      0.00%
+  22  GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045833.1_001247.1                 0.00%    passed     40.76%
+  23  GCA_047291755.1_Cucurbitales_Cucumis_sagittatus_Helixer_JBKKFV010000008.1_001260.1    0.00%    passed      5.53%
+  24  GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010037097.1_000002.1      0.00%    failed      0.53%
+  25  GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_000617.1              0.00%    passed     29.57%
+  26  GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_000961.1              0.00%    passed     29.57%
+  27  GCA_047291735.1_Cucurbitales_Cucumis_umbellatus_Helixer_JBKKFW010000022.1_000317.1    0.00%    failed      0.00%
+  28  GCA_047291755.1_Cucurbitales_Cucumis_sagittatus_Helixer_JBKKFV010000021.1_000321.1    0.00%    passed     29.57%
+  29  GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010000019.1_000324.1      0.00%    failed      3.28%
+  30  GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045837.1_000636.1                 0.00%    passed     20.64%
+  31  GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000019.1_000344.1      0.00%    passed     79.43%
+  32  GCF_009727055.1_Cucurbitales_Benincasa_hispida_Helixer_NC_052349.1_000576.1           0.00%    passed     86.13%
+  33  GCA_039639715.1_Cucurbitales_Citrullus_lanatus_Helixer_CP155245.1_000602.1            0.00%    passed     96.57%
+  34  GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029396.1_000105.1             0.00%    passed     69.47%
+  35  GCF_009727055.1_Cucurbitales_Benincasa_hispida_Helixer_NC_052349.1_000577.1           0.00%    passed     96.57%
+  36  GCA_039639715.1_Cucurbitales_Citrullus_lanatus_Helixer_CP155245.1_000603.1            0.00%    passed     86.13%
+  37  GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000014.1_000142.1      0.00%    passed     86.13%
+  38  GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010000019.1_001114.1      0.00%    failed      0.00%
+  39  GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029406.1_002000.1             0.00%    passed     25.77%
+  40  GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029404.1_001490.1             0.00%    passed     96.57%
+  41  LcMLP2                                                                                0.00%    passed     69.47%
+  42  GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029396.1_001681.1             0.00%    passed     69.47%
+  43  GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071851.1_000513.1                0.00%    passed     96.57%
+  44  GCA_036507285.1_Cucurbitales_Trichosanthes_cucumerina_Helixer_CM071838.1_001300.1     0.00%    passed     48.63%
+  45  GCA_036507285.1_Cucurbitales_Trichosanthes_cucumerina_Helixer_CM071838.1_001299.1     0.00%    passed     86.13%
+  46  GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008919.1_001185.1               0.00%    passed      8.93%
+  47  GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000014.1_000197.1       0.00%    passed     86.13%
+  48  GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272034.1_000198.1         0.00%    failed      0.00%
+  49  GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066962.1_000196.1          0.00%    passed     13.85%
+  50  GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008919.1_001186.1               0.00%    passed     54.17%
+  51  GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000014.1_000198.1       0.00%    passed     54.17%
+  52  GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272034.1_000199.1         0.00%    failed      0.00%
+  53  GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066962.1_000197.1          0.00%    passed     86.13%
+  54  GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066962.1_000195.1          0.00%    passed     86.13%
+  55  GCF_009727055.1_Cucurbitales_Benincasa_hispida_Helixer_NC_052349.1_000579.1           0.00%    passed     69.47%
+  56  GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045837.1_000637.1                 0.00%    passed     29.57%
+  57  GCA_047291735.1_Cucurbitales_Cucumis_umbellatus_Helixer_JBKKFW010000022.1_000318.1    0.00%    passed     69.47%
+  58  GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_000618.1              0.00%    passed     40.76%
+  59  GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_000962.1              0.00%    passed     29.57%
+  60  GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010000019.1_000326.1      0.00%    passed     69.47%
+  61  GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000019.1_000345.1      0.00%    passed     69.47%
+  62  GCF_009727055.1_Cucurbitales_Benincasa_hispida_Helixer_NC_052349.1_000578.1           0.00%    passed     69.47%
+  63  GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_000613.1              0.00%    passed     79.43%
+  64  GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_000960.1              0.00%    passed     79.43%
+  65  GCA_047291735.1_Cucurbitales_Cucumis_umbellatus_Helixer_JBKKFW010000022.1_000316.1    0.00%    passed     79.43%
+  66  GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000019.1_000343.1      0.00%    passed     79.43%
+  67  GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010000019.1_000323.1      0.00%    passed     79.43%
+  68  GCA_047291755.1_Cucurbitales_Cucumis_sagittatus_Helixer_JBKKFV010000021.1_000320.1    0.00%    passed     79.43%
+  69  GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045837.1_000635.1                 0.00%    passed     79.43%
+  70  GCF_009727055.1_Cucurbitales_Benincasa_hispida_Helixer_NC_052349.1_000575.1           0.00%    passed     96.57%
+  71  GCA_039639715.1_Cucurbitales_Citrullus_lanatus_Helixer_CP155245.1_000601.1            0.00%    passed     96.57%
+  72  GCA_036507285.1_Cucurbitales_Trichosanthes_cucumerina_Helixer_CM071838.1_001298.1     0.00%    passed     96.57%
+  73  GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071851.1_000512.1                0.00%    passed     79.43%
+  74  GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029396.1_001680.1             0.00%    passed     79.43%
+  75  GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001703.1               0.00%    passed     63.23%
+  76  GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001702.1               0.00%    passed     63.23%
+  77  GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000004.1_000135.1       0.00%    passed     54.17%
+  78  GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066975.1_001671.1          0.00%    passed     63.23%
+  79  GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272023.1_000609.1         0.00%    passed     63.23%
+  80  GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001701.1               0.00%    passed     63.23%
+  81  GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000004.1_000134.1       0.00%    passed     63.23%
+  82  GCF_001995035.1_Cucurbitales_Momordica_charantia_Helixer_NW_019104512.1_000111.1      0.00%    passed     96.57%
+  83  GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_001469.1              0.00%    passed     36.07%
+  84  GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_003230.1              0.00%    passed     36.07%
+  85  GCA_047291735.1_Cucurbitales_Cucumis_umbellatus_Helixer_JBKKFW010000022.1_001086.1    0.00%    passed     36.07%
+  86  GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045837.1_001546.1                 0.00%    passed     36.07%
+  87  GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000019.1_001120.1      0.00%    passed     36.07%
+  88  GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010000008.1_000282.1      0.00%    passed     36.07%
+  89  GCA_047291755.1_Cucurbitales_Cucumis_sagittatus_Helixer_JBKKFV010000021.1_001111.1    0.00%    passed     36.07%
+  90  GCA_039639715.1_Cucurbitales_Citrullus_lanatus_Helixer_CP155245.1_002027.1            0.00%    passed     36.07%
+  91  GCF_009727055.1_Cucurbitales_Benincasa_hispida_Helixer_NC_052349.1_000628.1           0.00%    passed     36.07%
+  92  GCA_047291755.1_Cucurbitales_Cucumis_sagittatus_Helixer_JBKKFV010003847.1_000001.1    0.00%    passed     48.63%
+  93  GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010030674.1_000002.1      0.00%    passed     48.63%
+  94  GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000002.1_000663.1      0.00%    passed     48.63%
+  95  GCA_039639715.1_Cucurbitales_Citrullus_lanatus_Helixer_CP155245.1_000606.1            0.00%    passed     25.77%
+  96  GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_000621.1              0.00%    failed      3.28%
+  97  GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_000965.1              0.00%    failed      3.28%
+  98  GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_000883.1              0.00%    failed      3.28%
+  99  GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_000400.1               0.00%    passed     25.77%
+ 100  GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000004.1_000967.1       0.00%    passed     25.77%
+ 101  GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272023.1_000393.1         0.00%    passed     25.77%
+ 102  GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066975.1_000394.1          0.00%    passed     25.77%
+ 103  GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001709.1               0.00%    passed     25.77%
+ 104  GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000004.1_000140.1       0.00%    passed     25.77%
+ 105  GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066975.1_001676.1          0.00%    passed     25.77%
+ 106  GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272023.1_000392.1         0.00%    passed     25.77%
+ 107  GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066975.1_000393.1          0.00%    passed     48.63%
+ 108  GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071850.1_001933.1                0.00%    passed     25.77%
+ 109  GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029396.1_001684.1             0.00%    passed     13.85%
+ 110  GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029395.1_001530.1             0.00%    passed     25.77%
+ 111  GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029396.1_001685.1             0.00%    passed     20.64%
+ 112  GCA_036507285.1_Cucurbitales_Trichosanthes_cucumerina_Helixer_CM071838.1_001302.1     0.00%    failed      0.00%
+ 113  GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071850.1_001932.1                0.00%    passed     17.72%
+ 114  GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272023.1_000614.1         0.00%    passed     48.63%
+ 115  GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000004.1_000139.1       0.00%    passed     48.63%
+ 116  GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001708.1               0.00%    passed     13.85%
+ 117  GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066963.1_000250.1          0.00%    passed     13.85%
+ 118  GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010074847.1_000001.1      0.00%    passed     36.07%
+ 119  GCA_047291755.1_Cucurbitales_Cucumis_sagittatus_Helixer_JBKKFV010000003.1_001304.1    0.00%    failed      3.28%
+ 120  GCA_039639715.1_Cucurbitales_Citrullus_lanatus_Helixer_CP155245.1_000605.1            0.00%    passed     48.63%
+ 121  GCA_036507285.1_Cucurbitales_Trichosanthes_cucumerina_Helixer_CM071838.1_001303.1     0.00%    passed     36.07%
+ 122  GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071850.1_001931.1                0.00%    passed     29.57%
+ 123  GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071850.1_001930.1                0.00%    passed     63.23%
+ 124  GCF_001995035.1_Cucurbitales_Momordica_charantia_Helixer_NW_019104512.1_000114.1      0.00%    failed      0.00%
+ 125  GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000020.1_000652.1      0.00%    passed     63.23%
+ 126  GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010000020.1_000641.1      0.00%    passed     25.77%
+ 127  GCA_047291755.1_Cucurbitales_Cucumis_sagittatus_Helixer_JBKKFV010000022.1_000630.1    0.00%    passed     63.23%
+ 128  GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_000623.1              0.00%    passed     63.23%
+ 129  GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_000966.1              0.00%    passed     63.23%
+ 130  GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045837.1_000640.1                 0.00%    passed     48.63%
+ 131  GCA_039639715.1_Cucurbitales_Citrullus_lanatus_Helixer_CP155245.1_002026.1            0.00%    passed     79.43%
+ 132  GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_000624.1              0.00%    passed     63.23%
+ 133  GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_003231.1              0.00%    failed      0.00%
+ 134  GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045837.1_000641.1                 0.00%    passed     63.23%
+ 135  GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000020.1_000653.1      0.00%    passed     79.43%
+ 136  GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010000020.1_000642.1      0.00%    passed     79.43%
+ 137  GCF_009727055.1_Cucurbitales_Benincasa_hispida_Helixer_NC_052349.1_001718.1           0.00%    passed     96.57%
+ 138  GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066975.1_001677.1          0.00%    failed      1.87%
+ 139  GCA_036507285.1_Cucurbitales_Trichosanthes_cucumerina_Helixer_CM071838.1_001304.1     0.00%    passed     36.07%
+ 140  GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071851.1_000515.1                0.00%    passed     48.63%
+ 141  GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029396.1_001686.1             0.00%    passed     96.57%
+ 142  GCF_001995035.1_Cucurbitales_Momordica_charantia_Helixer_NW_019104512.1_000115.1      0.00%    passed     79.43%
+ 143  GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_000619.1              0.00%    passed     48.63%
+ 144  GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_000963.1              0.00%    passed     96.57%
+ 145  GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045837.1_000638.1                 0.00%    passed     63.23%
+ 146  GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000019.1_000346.1      0.00%    passed     63.23%
+ 147  GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010000019.1_000327.1      0.00%    passed     79.43%
+ 148  GCA_039639715.1_Cucurbitales_Citrullus_lanatus_Helixer_CP155245.1_000604.1            0.00%    passed     63.23%
+ 149  GCA_047291735.1_Cucurbitales_Cucumis_umbellatus_Helixer_JBKKFW010000022.1_000319.1    0.00%    failed      0.00%
+ 150  GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045837.1_000639.1                 0.00%    passed     79.43%
+ 151  GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_000620.1              0.00%    passed     36.07%
+ 152  GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_000964.1              0.00%    passed     79.43%
+ 153  GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000019.1_000347.1      0.00%    failed      0.00%
+ 154  GCF_009727055.1_Cucurbitales_Benincasa_hispida_Helixer_NC_052349.1_001768.1           0.00%    passed     79.43%
+ 155  GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029396.1_001683.1             0.00%    passed     48.63%
+ 156  GCF_001995035.1_Cucurbitales_Momordica_charantia_Helixer_NW_019104512.1_000112.1      0.00%    failed      2.64%
+ 157  GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071850.1_001929.1                0.00%    passed     36.07%
+****  TOTAL                                                                                 0.00%  19 sequences failed composition chi2 test (p-value<5%; df=1)
+Reading input tree file anceseq_results_v1.3.0/00_tree/MLP_codon_clade.global_aln.fasta.treefile ...
+
+NOTE: 0 MB RAM (0 GB) is required!
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -14208.070
+Optimal log-likelihood: -14208.070
+State frequencies:  0: 0.500  1: 0.500
+Parameters optimization took 1 rounds (0.000 sec)
+Wrote distance file to... 
+BEST SCORE FOUND : -14208.070
+Ancestral state probabilities printed to anceseq_results_v1.3.0/20_indels/MLP_codon_clade.global_aln.fasta.binary.state
+Total tree length: 10.588
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 0.069 sec (0h:0m:0s)
+Total wall-clock time used: 0.397 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                anceseq_results_v1.3.0/20_indels/MLP_codon_clade.global_aln.fasta.binary.iqtree
+  Maximum-likelihood tree:       anceseq_results_v1.3.0/20_indels/MLP_codon_clade.global_aln.fasta.binary.treefile
+  Ancestral state:               anceseq_results_v1.3.0/20_indels/MLP_codon_clade.global_aln.fasta.binary.state
+  Screen log file:               anceseq_results_v1.3.0/20_indels/MLP_codon_clade.global_aln.fasta.binary.log
+
+Date and Time: Wed Aug 20 23:03:20 2025

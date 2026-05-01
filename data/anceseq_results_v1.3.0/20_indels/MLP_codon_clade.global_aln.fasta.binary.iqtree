@@ -1,0 +1,406 @@
+IQ-TREE 3.0.1 built Jul  9 2025
+
+Input file name: anceseq_results_v1.3.0/20_indels/MLP_codon_clade.global_aln.fasta.binary
+User tree file name: anceseq_results_v1.3.0/00_tree/MLP_codon_clade.global_aln.fasta.treefile
+Type of analysis: tree reconstruction
+Random seed number: 404179
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 157 sequences with 786 binary sites
+Number of constant sites: 225 (= 28.626% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 225 (= 28.626% of all sites)
+Number of parsimony informative sites: 366
+Number of distinct site patterns: 70
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: JC2+FQ
+
+Rate parameter R:
+
+  0-1: 1.0000
+
+State frequencies: (equal frequencies)
+
+Rate matrix Q:
+
+  0        -1         1
+  1         1        -1
+
+Model of rate heterogeneity: Uniform
+
+USER TREE
+---------
+
+Log-likelihood of the tree: -14208.0704 (s.e. 267.3071)
+Unconstrained log-likelihood (without tree): -2529.5431
+Number of free parameters (#branches + #model parameters): 0
+Akaike information criterion (AIC) score: 28416.1408
+Corrected Akaike information criterion (AICc) score: 28416.1408
+Bayesian information criterion (BIC) score: 28416.1408
+
+Total tree length (sum of branch lengths): 10.5876
+Sum of internal branch lengths: 5.0063 (47.2852% of tree length)
+
+WARNING: 3 near-zero internal branches (<0.0013) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071850.1_001929.1' is drawn at root
+
+                                                                      +--MLP-PG1
+                                                                   +**| (Node15)
+                                                                   |  |  +**CmMLP1
+                                                                   |  +--| (Node16)
+                                                                   |     +**GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000004.1_000138.1
+                                                                +--| (Node14)
+                                                                |  +--GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001707.1
+                                                             +--| (Node13)
+                                                             |  +--GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272023.1_000612.1
+                                                          +--| (Node12)
+                                                          |  +--GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066975.1_001674.1
+                                                    +-----| (Node11)
+                                                    |     |              +--MLP-GR3
+                                                    |     |           +--| (Node21)
+                                                    |     |           |  +**GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001706.1
+                                                    |     |        +--| (Node20)
+                                                    |     |        |  +--GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000004.1_000137.1
+                                                    |     |     +--| (Node19)
+                                                    |     |     |  +--GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272023.1_000611.1
+                                                    |     |  +--| (Node18)
+                                                    |     |  |  +--GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066975.1_001673.1
+                                                    |     +--| (Node17)
+                                                    |        |           +--CmMLP3
+                                                    |        |        +--| (Node25)
+                                                    |        |        |  +--GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000004.1_000136.1
+                                                    |        |     +--| (Node24)
+                                                    |        |     |  +--GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001705.1
+                                                    |        |  +--| (Node23)
+                                                    |        |  |  +--GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272023.1_000610.1
+                                                    |        +--| (Node22)
+                                                    |           |     +**CfMLP2
+                                                    |           |  +--| (Node27)
+                                                    |           |  |  +**GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066975.1_001672.1
+                                                    |           +--| (Node26)
+                                                    |              +**CfMLP1
+                                                 +--| (Node10)
+                                                 |  |                            +**GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002922.2_001684.1
+                                                 |  |                         +--| (Node35)
+                                                 |  |                         |  +**GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_ACHR03000024.1_000014.1
+                                                 |  |                      +--| (Node34)
+                                                 |  |                      |  +--GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046884.1_001733.1
+                                                 |  |                   +--| (Node33)
+                                                 |  |                   |  +--GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045833.1_001247.1
+                                                 |  |                +--| (Node32)
+                                                 |  |                |  +--GCA_047291755.1_Cucurbitales_Cucumis_sagittatus_Helixer_JBKKFV010000008.1_001260.1
+                                                 |  |         +------| (Node31)
+                                                 |  |         |      +--GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010037097.1_000002.1
+                                                 |  |      +--| (Node30)
+                                                 |  |      |  |              +--GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_000617.1
+                                                 |  |      |  |           +--| (Node40)
+                                                 |  |      |  |           |  +--GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_000961.1
+                                                 |  |      |  |        +--| (Node39)
+                                                 |  |      |  |        |  +--GCA_047291735.1_Cucurbitales_Cucumis_umbellatus_Helixer_JBKKFW010000022.1_000317.1
+                                                 |  |      |  |     +--| (Node38)
+                                                 |  |      |  |     |  +--GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045837.1_000636.1
+                                                 |  |      |  |  +--| (Node37)
+                                                 |  |      |  |  |  |  +--GCA_047291755.1_Cucurbitales_Cucumis_sagittatus_Helixer_JBKKFV010000021.1_000321.1
+                                                 |  |      |  |  |  +--| (Node41)
+                                                 |  |      |  |  |     +--GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010000019.1_000324.1
+                                                 |  |      |  +--| (Node36)
+                                                 |  |      |     +--GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000019.1_000344.1
+                                                 |  |   +--| (Node29)
+                                                 |  |   |  +--GCA_039639715.1_Cucurbitales_Citrullus_lanatus_Helixer_CP155245.1_000602.1
+                                                 |  +---| (Node28)
+                                                 |      +--GCF_009727055.1_Cucurbitales_Benincasa_hispida_Helixer_NC_052349.1_000576.1
+                                              +--| (Node9)
+                                              |  +-----GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029396.1_000105.1
+                                           +--| (Node8)
+                                           |  |     +--GCF_009727055.1_Cucurbitales_Benincasa_hispida_Helixer_NC_052349.1_000577.1
+                                           |  |  +--| (Node43)
+                                           |  |  |  +--GCA_039639715.1_Cucurbitales_Citrullus_lanatus_Helixer_CP155245.1_000603.1
+                                           |  +--| (Node42)
+                                           |     |       +--GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000014.1_000142.1
+                                           |     +-------| (Node44)
+                                           |             +-----GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010000019.1_001114.1
+                                        +--| (Node7)
+                                        |  |  +---------GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071851.1_000513.1
+                                        |  +--| (Node45)
+                                        |     |   +----GCA_036507285.1_Cucurbitales_Trichosanthes_cucumerina_Helixer_CM071838.1_001300.1
+                                        |     +---| (Node46)
+                                        |         +--GCA_036507285.1_Cucurbitales_Trichosanthes_cucumerina_Helixer_CM071838.1_001299.1
+                                     +--| (Node6)
+                                     |  |   +--GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029406.1_002000.1
+                                     |  +---| (Node47)
+                                     |      +--GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029404.1_001490.1
+                                  +--| (Node5)
+                                  |  |       +**LcMLP2
+                                  |  +-------| (Node48)
+                                  |          +**GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029396.1_001681.1
+                               +--| (Node4)
+                               |  |                         +--GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008919.1_001185.1
+                               |  |                      +--| (Node55)
+                               |  |                      |  +--GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000014.1_000197.1
+                               |  |                   +--| (Node54)
+                               |  |                   |  +--GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272034.1_000198.1
+                               |  |                +--| (Node53)
+                               |  |                |  +--GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066962.1_000196.1
+                               |  |             +--| (Node52)
+                               |  |             |  |        +--GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008919.1_001186.1
+                               |  |             |  |     +--| (Node58)
+                               |  |             |  |     |  +--GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000014.1_000198.1
+                               |  |             |  |  +--| (Node57)
+                               |  |             |  |  |  +--GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272034.1_000199.1
+                               |  |             |  +--| (Node56)
+                               |  |             |     +--GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066962.1_000197.1
+                               |  |     +-------| (Node51)
+                               |  |     |       +----GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066962.1_000195.1
+                               |  |  +--| (Node50)
+                               |  |  |  +-----------GCF_009727055.1_Cucurbitales_Benincasa_hispida_Helixer_NC_052349.1_000579.1
+                               |  +--| (Node49)
+                               |     |           +--GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045837.1_000637.1
+                               |     |        +--| (Node62)
+                               |     |        |  |  +--GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_000618.1
+                               |     |        |  +--| (Node63)
+                               |     |        |     +--GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_000962.1
+                               |     |     +--| (Node61)
+                               |     |     |  +--GCA_047291735.1_Cucurbitales_Cucumis_umbellatus_Helixer_JBKKFW010000022.1_000318.1
+                               |     |  +--| (Node60)
+                               |     |  |  |  +--GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010000019.1_000326.1
+                               |     |  |  +--| (Node64)
+                               |     |  |     +--GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000019.1_000345.1
+                               |     +--| (Node59)
+                               |        +--GCF_009727055.1_Cucurbitales_Benincasa_hispida_Helixer_NC_052349.1_000578.1
+                            +--| (Node3)
+                            |  |                     +**GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001703.1
+                            |  |                  +--| (Node70)
+                            |  |                  |  +**GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001702.1
+                            |  |               +--| (Node69)
+                            |  |               |  +--GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000004.1_000135.1
+                            |  |            +--| (Node68)
+                            |  |            |  +--GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066975.1_001671.1
+                            |  |         +--| (Node67)
+                            |  |         |  +--GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272023.1_000609.1
+                            |  |  +------| (Node66)
+                            |  |  |      |  +--GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001701.1
+                            |  |  |      +--| (Node71)
+                            |  |  |         +**GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000004.1_000134.1
+                            |  +--| (Node65)
+                            |     +-----GCF_001995035.1_Cucurbitales_Momordica_charantia_Helixer_NW_019104512.1_000111.1
++---------------------------| (Node2)
+|                           |                    +--GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_000613.1
+|                           |                 +--| (Node78)
+|                           |                 |  +--GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_000960.1
+|                           |              +--| (Node77)
+|                           |              |  +--GCA_047291735.1_Cucurbitales_Cucumis_umbellatus_Helixer_JBKKFW010000022.1_000316.1
+|                           |           +--| (Node76)
+|                           |           |  |  +--GCA_047291755.1_Cucurbitales_Cucumis_sagittatus_Helixer_JBKKFV010000021.1_000320.1
+|                           |           |  +**| (Node79)
+|                           |           |     +--GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045837.1_000635.1
+|                           |        +**| (Node75)
+|                           |        |  +--GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010000019.1_000323.1
+|                           |     +--| (Node74)
+|                           |     |  +--GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000019.1_000343.1
+|                           |  +--| (Node73)
+|                           |  |  |  +--GCF_009727055.1_Cucurbitales_Benincasa_hispida_Helixer_NC_052349.1_000575.1
+|                           |  |  +--| (Node80)
+|                           |  |     +--GCA_039639715.1_Cucurbitales_Citrullus_lanatus_Helixer_CP155245.1_000601.1
+|                           +--| (Node72)
+|                              |     +--GCA_036507285.1_Cucurbitales_Trichosanthes_cucumerina_Helixer_CM071838.1_001298.1
+|                              |  +--| (Node82)
+|                              |  |  +----GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071851.1_000512.1
+|                              +--| (Node81)
+|                                 +--GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029396.1_001680.1
+| (Node1)
+|                                                  +--GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_001469.1
+|                                               +--| (Node99)
+|                                               |  +--GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_003230.1
+|                                            +--| (Node98)
+|                                            |  +--GCA_047291735.1_Cucurbitales_Cucumis_umbellatus_Helixer_JBKKFW010000022.1_001086.1
+|                                         +--| (Node97)
+|                                         |  +--GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045837.1_001546.1
+|                                      +--| (Node96)
+|                                      |  |  +--GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000019.1_001120.1
+|                                      |  +--| (Node100)
+|                                      |     +--GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010000008.1_000282.1
+|                                   +--| (Node95)
+|                                   |  +--GCA_047291755.1_Cucurbitales_Cucumis_sagittatus_Helixer_JBKKFV010000021.1_001111.1
+|                                +--| (Node94)
+|                                |  |  +--GCA_039639715.1_Cucurbitales_Citrullus_lanatus_Helixer_CP155245.1_002027.1
+|                                |  +--| (Node101)
+|                                |     +--GCF_009727055.1_Cucurbitales_Benincasa_hispida_Helixer_NC_052349.1_000628.1
+|                             +--| (Node93)
+|                             |  |        +--GCA_047291755.1_Cucurbitales_Cucumis_sagittatus_Helixer_JBKKFV010003847.1_000001.1
+|                             |  |     +--| (Node104)
+|                             |  |     |  +--GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010030674.1_000002.1
+|                             |  |  +--| (Node103)
+|                             |  |  |  +--GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000002.1_000663.1
+|                             |  +--| (Node102)
+|                             |     +---GCA_039639715.1_Cucurbitales_Citrullus_lanatus_Helixer_CP155245.1_000606.1
+|                          +--| (Node92)
+|                          |  |          +--GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_000621.1
+|                          |  |       +--| (Node106)
+|                          |  |       |  +--GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_000883.1
+|                          |  +-------| (Node105)
+|                          |          +--GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_000965.1
+|                       +--| (Node91)
+|                       |  |              +--GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_000400.1
+|                       |  |           +--| (Node111)
+|                       |  |           |  +--GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000004.1_000967.1
+|                       |  |        +--| (Node110)
+|                       |  |        |  +--GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272023.1_000393.1
+|                       |  |     +--| (Node109)
+|                       |  |     |  +--GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066975.1_000394.1
+|                       |  |  +--| (Node108)
+|                       |  |  |  |     +--GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001709.1
+|                       |  |  |  |  +--| (Node113)
+|                       |  |  |  |  |  +--GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000004.1_000140.1
+|                       |  |  |  +--| (Node112)
+|                       |  |  |     +--GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066975.1_001676.1
+|                       |  +--| (Node107)
+|                       |     |  +---GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272023.1_000392.1
+|                       |     +--| (Node114)
+|                       |        +--GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066975.1_000393.1
+|                    +--| (Node90)
+|                    |  +------GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071850.1_001933.1
+|                 +--| (Node89)
+|                 |  |        +--GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029396.1_001684.1
+|                 |  |     +--| (Node117)
+|                 |  |     |  +--GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029395.1_001530.1
+|                 |  |  +--| (Node116)
+|                 |  |  |  +--GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029396.1_001685.1
+|                 |  +--| (Node115)
+|                 |     |  +--GCA_036507285.1_Cucurbitales_Trichosanthes_cucumerina_Helixer_CM071838.1_001302.1
+|                 |     +--| (Node118)
+|                 |        +-------GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071850.1_001932.1
+|              +--| (Node88)
+|              |  |                   +--GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272023.1_000614.1
+|              |  |                +--| (Node124)
+|              |  |                |  +--GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001708.1
+|              |  |             +--| (Node123)
+|              |  |             |  +--GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000004.1_000139.1
+|              |  |        +----| (Node122)
+|              |  |        |    +--GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066963.1_000250.1
+|              |  |     +--| (Node121)
+|              |  |     |  |      +--GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010074847.1_000001.1
+|              |  |     |  |  +---| (Node126)
+|              |  |     |  |  |   +---GCA_047291755.1_Cucurbitales_Cucumis_sagittatus_Helixer_JBKKFV010000003.1_001304.1
+|              |  |     |  +--| (Node125)
+|              |  |     |     +---GCA_039639715.1_Cucurbitales_Citrullus_lanatus_Helixer_CP155245.1_000605.1
+|              |  |  +--| (Node120)
+|              |  |  |  +---GCA_036507285.1_Cucurbitales_Trichosanthes_cucumerina_Helixer_CM071838.1_001303.1
+|              |  +--| (Node119)
+|              |     |     +--GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071850.1_001931.1
+|              |     +-----| (Node127)
+|              |           +-----------GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071850.1_001930.1
+|           +--| (Node87)
+|           |  +-----GCF_001995035.1_Cucurbitales_Momordica_charantia_Helixer_NW_019104512.1_000114.1
+|        +--| (Node86)
+|        |  |                        +--GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000020.1_000652.1
+|        |  |                     +--| (Node135)
+|        |  |                     |  +--GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010000020.1_000641.1
+|        |  |                  +--| (Node134)
+|        |  |                  |  +--GCA_047291755.1_Cucurbitales_Cucumis_sagittatus_Helixer_JBKKFV010000022.1_000630.1
+|        |  |               +--| (Node133)
+|        |  |               |  |     +--GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_000623.1
+|        |  |               |  |  +--| (Node137)
+|        |  |               |  |  |  +--GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_000966.1
+|        |  |               |  +--| (Node136)
+|        |  |               |     +--GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045837.1_000640.1
+|        |  |            +--| (Node132)
+|        |  |            |  +--GCA_039639715.1_Cucurbitales_Citrullus_lanatus_Helixer_CP155245.1_002026.1
+|        |  |         +--| (Node131)
+|        |  |         |  |           +--GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_000624.1
+|        |  |         |  |        +--| (Node141)
+|        |  |         |  |        |  +--GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_003231.1
+|        |  |         |  |     +--| (Node140)
+|        |  |         |  |     |  +--GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045837.1_000641.1
+|        |  |         |  |  +--| (Node139)
+|        |  |         |  |  |  |  +--GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000020.1_000653.1
+|        |  |         |  |  |  +--| (Node142)
+|        |  |         |  |  |     +--GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010000020.1_000642.1
+|        |  |         |  +--| (Node138)
+|        |  |         |     +--GCF_009727055.1_Cucurbitales_Benincasa_hispida_Helixer_NC_052349.1_001718.1
+|        |  |      +--| (Node130)
+|        |  |      |  +---GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066975.1_001677.1
+|        |  |   +--| (Node129)
+|        |  |   |  |     +--GCA_036507285.1_Cucurbitales_Trichosanthes_cucumerina_Helixer_CM071838.1_001304.1
+|        |  |   |  |  +--| (Node144)
+|        |  |   |  |  |  +------GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071851.1_000515.1
+|        |  |   |  +--| (Node143)
+|        |  |   |     +--GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029396.1_001686.1
+|        |  +---| (Node128)
+|        |      +--GCF_001995035.1_Cucurbitales_Momordica_charantia_Helixer_NW_019104512.1_000115.1
+|     +--| (Node85)
+|     |  +-----GCF_001995035.1_Cucurbitales_Momordica_charantia_Helixer_NW_019104512.1_000112.1
+|  +--| (Node84)
+|  |  |                +--GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_000619.1
+|  |  |             +--| (Node148)
+|  |  |             |  +--GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_000963.1
+|  |  |          +--| (Node147)
+|  |  |          |  +--GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045837.1_000638.1
+|  |  |       +--| (Node146)
+|  |  |       |  |  +--GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000019.1_000346.1
+|  |  |       |  +--| (Node149)
+|  |  |       |     +--GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010000019.1_000327.1
+|  |  +-------| (Node145)
+|  |          +--GCA_039639715.1_Cucurbitales_Citrullus_lanatus_Helixer_CP155245.1_000604.1
++--| (Node83)
+|  |              +--GCA_047291735.1_Cucurbitales_Cucumis_umbellatus_Helixer_JBKKFW010000022.1_000319.1
+|  |           +--| (Node154)
+|  |           |  |  +--GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_000620.1
+|  |           |  +--| (Node155)
+|  |           |     +--GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_000964.1
+|  |        +--| (Node153)
+|  |        |  +--GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045837.1_000639.1
+|  |     +--| (Node152)
+|  |     |  +--GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000019.1_000347.1
+|  |  +--| (Node151)
+|  |  |  +--GCF_009727055.1_Cucurbitales_Benincasa_hispida_Helixer_NC_052349.1_001768.1
+|  +--| (Node150)
+|     +----GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029396.1_001683.1
+|
++----GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071850.1_001929.1
+
+Tree in newick format:
+
+(((((((((((((((MLP-PG1:0.0046035892,(CmMLP1:0.0000010003,GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000004.1_000138.1:0.0000010003)Node16:0.0139441010)Node15:0.0000025618,GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001707.1:0.0022955942)Node14:0.0140127359,GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272023.1_000612.1:0.0092725363)Node13:0.0266785188,GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066975.1_001674.1:0.0262739830)Node12:0.0198575162,(((((MLP-GR3:0.0185469216,GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001706.1:0.0000010003)Node21:0.0132154799,GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000004.1_000137.1:0.0076231410)Node20:0.0062054161,GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272023.1_000611.1:0.0304512277)Node19:0.0458376103,GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066975.1_001673.1:0.0262224160)Node18:0.0281289328,((((CmMLP3:0.0044856948,GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000004.1_000136.1:0.0025296190)Node25:0.0114587905,GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001705.1:0.0089981430)Node24:0.0122347073,GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272023.1_000610.1:0.0133545757)Node23:0.0161363298,((CfMLP2:0.0000010003,GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066975.1_001672.1:0.0000010003)Node27:0.0022580662,CfMLP1:0.0000021155)Node26:0.0204434265)Node22:0.0091323654)Node17:0.0076644950)Node11:0.1019148329,((((((((GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002922.2_001684.1:0.0000010003,GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_ACHR03000024.1_000014.1:0.0000010003)Node35:0.0200775006,GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046884.1_001733.1:0.0126925042)Node34:0.0493355306,GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045833.1_001247.1:0.0495917925)Node33:0.0094733470,GCA_047291755.1_Cucurbitales_Cucumis_sagittatus_Helixer_JBKKFV010000008.1_001260.1:0.0310005901)Node32:0.0171914373,GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010037097.1_000002.1:0.0430035278)Node31:0.1253279040,(((((GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_000617.1:0.0254976298,GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_000961.1:0.0158009152)Node40:0.0207665014,GCA_047291735.1_Cucurbitales_Cucumis_umbellatus_Helixer_JBKKFW010000022.1_000317.1:0.0289223210)Node39:0.0276138133,GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045837.1_000636.1:0.0516545868)Node38:0.0136336646,(GCA_047291755.1_Cucurbitales_Cucumis_sagittatus_Helixer_JBKKFV010000021.1_000321.1:0.0099316844,GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010000019.1_000324.1:0.0177384145)Node41:0.0136846772)Node37:0.0120962927,GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000019.1_000344.1:0.0408487986)Node36:0.0516240361)Node30:0.0394896386,GCA_039639715.1_Cucurbitales_Citrullus_lanatus_Helixer_CP155245.1_000602.1:0.0571948705)Node29:0.0150724125,GCF_009727055.1_Cucurbitales_Benincasa_hispida_Helixer_NC_052349.1_000576.1:0.0454050998)Node28:0.0681251204)Node10:0.0332903483,GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029396.1_000105.1:0.1125348147)Node9:0.0134990828,((GCF_009727055.1_Cucurbitales_Benincasa_hispida_Helixer_NC_052349.1_000577.1:0.0512082298,GCA_039639715.1_Cucurbitales_Citrullus_lanatus_Helixer_CP155245.1_000603.1:0.0526740472)Node43:0.0086349753,(GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000014.1_000142.1:0.0206850918,GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010000019.1_001114.1:0.1041994790)Node44:0.1413505996)Node42:0.0608867082)Node8:0.0142837778,(GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071851.1_000513.1:0.1697040363,(GCA_036507285.1_Cucurbitales_Trichosanthes_cucumerina_Helixer_CM071838.1_001300.1:0.0913783679,GCA_036507285.1_Cucurbitales_Trichosanthes_cucumerina_Helixer_CM071838.1_001299.1:0.0405353898)Node46:0.0723189970)Node45:0.0150959859)Node7:0.0049209937,(GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029406.1_002000.1:0.0495464931,GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029404.1_001490.1:0.0129287125)Node47:0.0750834611)Node6:0.0311223844,(LcMLP2:0.0000010003,GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029396.1_001681.1:0.0000010003)Node48:0.1346565932)Node5:0.0081208834,(((((((GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008919.1_001185.1:0.0138169964,GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000014.1_000197.1:0.0116827773)Node55:0.0067381846,GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272034.1_000198.1:0.0150318927)Node54:0.0388791335,GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066962.1_000196.1:0.0321275718)Node53:0.0276202194,(((GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008919.1_001186.1:0.0199531755,GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000014.1_000198.1:0.0043595647)Node58:0.0030818023,GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272034.1_000199.1:0.0235592696)Node57:0.0223204264,GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066962.1_000197.1:0.0195809096)Node56:0.0258877205)Node52:0.0195235215,GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066962.1_000195.1:0.0942740437)Node51:0.1330800536,GCF_009727055.1_Cucurbitales_Benincasa_hispida_Helixer_NC_052349.1_000579.1:0.1995658032)Node50:0.0103645041,((((GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045837.1_000637.1:0.0422206745,(GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_000618.1:0.0068453243,GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_000962.1:0.0180417294)Node63:0.0213492531)Node62:0.0020800223,GCA_047291735.1_Cucurbitales_Cucumis_umbellatus_Helixer_JBKKFW010000022.1_000318.1:0.0230720796)Node61:0.0154503691,(GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010000019.1_000326.1:0.0207903637,GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000019.1_000345.1:0.0286480989)Node64:0.0050072303)Node60:0.0455291145,GCF_009727055.1_Cucurbitales_Benincasa_hispida_Helixer_NC_052349.1_000578.1:0.0386435772)Node59:0.0592696550)Node49:0.0081518116)Node4:0.0627887111,((((((GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001703.1:0.0000010003,GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001702.1:0.0000010003)Node70:0.0061024052,GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000004.1_000135.1:0.0100945597)Node69:0.0397313285,GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066975.1_001671.1:0.0247353768)Node68:0.0113455242,GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272023.1_000609.1:0.0374343390)Node67:0.0134871415,(GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001701.1:0.0067597084,GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000004.1_000134.1:0.0000020741)Node71:0.0352284235)Node66:0.1228981268,GCF_001995035.1_Cucurbitales_Momordica_charantia_Helixer_NW_019104512.1_000111.1:0.1055702927)Node65:0.0103555834)Node3:0.0018640040,(((((((GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_000613.1:0.0022868303,GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_000960.1:0.0138537463)Node78:0.0069290774,GCA_047291735.1_Cucurbitales_Cucumis_umbellatus_Helixer_JBKKFW010000022.1_000316.1:0.0163209347)Node77:0.0046816868,(GCA_047291755.1_Cucurbitales_Cucumis_sagittatus_Helixer_JBKKFV010000021.1_000320.1:0.0116066293,GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045837.1_000635.1:0.0092586775)Node79:0.0000010002)Node76:0.0023021031,GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010000019.1_000323.1:0.0092534575)Node75:0.0000010002,GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000019.1_000343.1:0.0139120236)Node74:0.0409016196,(GCF_009727055.1_Cucurbitales_Benincasa_hispida_Helixer_NC_052349.1_000575.1:0.0460334339,GCA_039639715.1_Cucurbitales_Citrullus_lanatus_Helixer_CP155245.1_000601.1:0.0370964042)Node80:0.0086290396)Node73:0.0379788928,((GCA_036507285.1_Cucurbitales_Trichosanthes_cucumerina_Helixer_CM071838.1_001298.1:0.0339711035,GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071851.1_000512.1:0.0858755033)Node82:0.0168785431,GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029396.1_001680.1:0.0486220268)Node81:0.0081001689)Node72:0.0116004210)Node2:0.4539044627,(((((((((((((((((GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_001469.1:0.0096597435,GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_003230.1:0.0143835270)Node99:0.0078964940,GCA_047291735.1_Cucurbitales_Cucumis_umbellatus_Helixer_JBKKFW010000022.1_001086.1:0.0239084847)Node98:0.0070970441,GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045837.1_001546.1:0.0277650112)Node97:0.0116168856,(GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000019.1_001120.1:0.0162562239,GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010000008.1_000282.1:0.0139541930)Node100:0.0085949047)Node96:0.0020643834,GCA_047291755.1_Cucurbitales_Cucumis_sagittatus_Helixer_JBKKFV010000021.1_001111.1:0.0149596302)Node95:0.0566441844,(GCA_039639715.1_Cucurbitales_Citrullus_lanatus_Helixer_CP155245.1_002027.1:0.0485389632,GCF_009727055.1_Cucurbitales_Benincasa_hispida_Helixer_NC_052349.1_000628.1:0.0594358340)Node101:0.0064569063)Node94:0.0406396677,(((GCA_047291755.1_Cucurbitales_Cucumis_sagittatus_Helixer_JBKKFV010003847.1_000001.1:0.0432932781,GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010030674.1_000002.1:0.0291530359)Node104:0.0055943068,GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000002.1_000663.1:0.0231876236)Node103:0.0486656651,GCA_039639715.1_Cucurbitales_Citrullus_lanatus_Helixer_CP155245.1_000606.1:0.0724833832)Node102:0.0282204615)Node93:0.0158819272,((GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_000621.1:0.0114345435,GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_000883.1:0.0400894085)Node106:0.0056869655,GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_000965.1:0.0084287084)Node105:0.1373257788)Node92:0.0195799443,(((((GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_000400.1:0.0126135534,GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000004.1_000967.1:0.0214595130)Node111:0.0210280538,GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272023.1_000393.1:0.0338491759)Node110:0.0241914935,GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066975.1_000394.1:0.0527271461)Node109:0.0142024004,((GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001709.1:0.0142354578,GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000004.1_000140.1:0.0118814248)Node113:0.0104609937,GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066975.1_001676.1:0.0159978658)Node112:0.0461023353)Node108:0.0455062203,(GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272023.1_000392.1:0.0680346009,GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066975.1_000393.1:0.0457515071)Node114:0.0571754241)Node107:0.0298368074)Node91:0.0343916824,GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071850.1_001933.1:0.1201970166)Node90:0.0550354860,(((GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029396.1_001684.1:0.0596743306,GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029395.1_001530.1:0.0273372994)Node117:0.0118521177,GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029396.1_001685.1:0.0248345851)Node116:0.0547263650,(GCA_036507285.1_Cucurbitales_Trichosanthes_cucumerina_Helixer_CM071838.1_001302.1:0.0593228866,GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071850.1_001932.1:0.1384993796)Node118:0.0355433447)Node115:0.0369929594)Node89:0.0577405158,((((((GCF_002738345.1_Cucurbitales_Cucurbita_maxima_Helixer_NW_019272023.1_000614.1:0.0350089615,GCA_002806865.2_Cucurbitales_Cucurbita_pepo_Helixer_CM008920.1_001708.1:0.0059759525)Node124:0.0018641578,GCA_002738365.1_Cucurbitales_Cucurbita_moschata_Helixer_NEWM01000004.1_000139.1:0.0135117863)Node123:0.0605547517,GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066963.1_000250.1:0.0095044941)Node122:0.0876287747,((GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010074847.1_000001.1:0.0395475918,GCA_047291755.1_Cucurbitales_Cucumis_sagittatus_Helixer_JBKKFV010000003.1_001304.1:0.0706980560)Node126:0.0745035717,GCA_039639715.1_Cucurbitales_Citrullus_lanatus_Helixer_CP155245.1_000605.1:0.0655606588)Node125:0.0319410062)Node121:0.0438618869,GCA_036507285.1_Cucurbitales_Trichosanthes_cucumerina_Helixer_CM071838.1_001303.1:0.0721741235)Node120:0.0305654909,(GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071850.1_001931.1:0.0311454792,GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071850.1_001930.1:0.1975432359)Node127:0.0996681939)Node119:0.0465868152)Node88:0.0258547231,GCF_001995035.1_Cucurbitales_Momordica_charantia_Helixer_NW_019104512.1_000114.1:0.1003935350)Node87:0.0299005494,((((((((GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000020.1_000652.1:0.0152385241,GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010000020.1_000641.1:0.0387253574)Node135:0.0115896285,GCA_047291755.1_Cucurbitales_Cucumis_sagittatus_Helixer_JBKKFV010000022.1_000630.1:0.0165380926)Node134:0.0023048003,((GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_000623.1:0.0127968611,GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_000966.1:0.0135944258)Node137:0.0162240174,GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045837.1_000640.1:0.0423356625)Node136:0.0117927573)Node133:0.0612497067,GCA_039639715.1_Cucurbitales_Citrullus_lanatus_Helixer_CP155245.1_002026.1:0.0336820358)Node132:0.0115850463,((((GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_000624.1:0.0046285248,GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_003231.1:0.0144141750)Node141:0.0130226361,GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045837.1_000641.1:0.0213647729)Node140:0.0302805672,(GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000020.1_000653.1:0.0125550774,GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010000020.1_000642.1:0.0330195452)Node142:0.0125738489)Node139:0.0513352656,GCF_009727055.1_Cucurbitales_Benincasa_hispida_Helixer_NC_052349.1_001718.1:0.0232563571)Node138:0.0170095994)Node131:0.0312478362,GCA_033971965.1_Cucurbitales_Cucurbita_ficifolia_Helixer_CM066975.1_001677.1:0.0709375834)Node130:0.0157636617,((GCA_036507285.1_Cucurbitales_Trichosanthes_cucumerina_Helixer_CM071838.1_001304.1:0.0239098507,GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071851.1_000515.1:0.1170674435)Node144:0.0301244670,GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029396.1_001686.1:0.0563167937)Node143:0.0207337726)Node129:0.0418757936,GCF_001995035.1_Cucurbitales_Momordica_charantia_Helixer_NW_019104512.1_000115.1:0.0636472782)Node128:0.0709887527)Node86:0.0449528013,GCF_001995035.1_Cucurbitales_Momordica_charantia_Helixer_NW_019104512.1_000112.1:0.0991788830)Node85:0.0394273356,((((GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_000619.1:0.0117152635,GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_000963.1:0.0048686019)Node148:0.0096734708,GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045837.1_000638.1:0.0407323820)Node147:0.0047158614,(GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000019.1_000346.1:0.0143287878,GCA_037974625.1_Cucurbitales_Cucumis_cinereus_Helixer_JBBPDJ010000019.1_000327.1:0.0264250674)Node149:0.0048835058)Node146:0.0579250949,GCA_039639715.1_Cucurbitales_Citrullus_lanatus_Helixer_CP155245.1_000604.1:0.0438627405)Node145:0.1353234244)Node84:0.0237492510,(((((GCA_047291735.1_Cucurbitales_Cucumis_umbellatus_Helixer_JBKKFW010000022.1_000319.1:0.0548817486,(GCA_025688845.1_Cucurbitales_Cucumis_hystrix_Helixer_CM046888.1_000620.1:0.0144742138,GCA_000004075.3_Cucurbitales_Cucumis_sativus_Helixer_CM002924.2_000964.1:0.0023820973)Node155:0.0046729590)Node154:0.0024367720,GCA_025177605.1_Cucurbitales_Cucumis_melo_Helixer_CM045837.1_000639.1:0.0166312162)Node153:0.0067407446,GCA_049181135.1_Cucurbitales_Cucumis_hirsutus_Helixer_JBMBSF010000019.1_000347.1:0.0419717061)Node152:0.0312771715,GCF_009727055.1_Cucurbitales_Benincasa_hispida_Helixer_NC_052349.1_001768.1:0.0301623967)Node151:0.0429319575,GCA_017139565.1_Cucurbitales_Luffa_aegyptiaca_Helixer_CM029396.1_001683.1:0.0848712118)Node150:0.0355677220)Node83:0.0337812263,GCA_036507275.1_Cucurbitales_Sicyos_edulis_Helixer_CM071850.1_001929.1:0.0849939044)Node1;
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t anceseq_results_v1.3.0/20_indels/MLP_codon_clade.global_aln.fasta.binary.treefile -m "JC2+FQ" --length 786
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s anceseq_results_v1.3.0/20_indels/MLP_codon_clade.global_aln.fasta.binary --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s anceseq_results_v1.3.0/20_indels/MLP_codon_clade.global_aln.fasta.binary --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Wed Aug 20 23:03:20 2025
+Total CPU time used: 0.068592 seconds (0h:0m:0s)
+Total wall-clock time used: 0.399151 seconds (0h:0m:0s)
+

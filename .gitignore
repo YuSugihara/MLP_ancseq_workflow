@@ -1,0 +1,47 @@
+# macOS and editor metadata
+.DS_Store
+._*
+.Spotlight-V100/
+.Trashes/
+.vscode/
+.idea/
+.obsidian/
+*.swp
+*.swo
+*~
+
+# Office temporary files
+~$*
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Sequence indexes and transient tool indexes
+*.fai
+*.gzi
+*.dict
+
+# Local scratch directories and transient workflow outputs
+tmp/
+temp/
+scratch/
+work/
+downloads/
+raw/
+data/ipr000916_extraction/
+
+# Large raw sequencing inputs should be deposited separately, not committed here
+*.fastq
+*.fq
+*.fastq.gz
+*.fq.gz
+
+# Local logs generated outside curated data directories
+local_logs/

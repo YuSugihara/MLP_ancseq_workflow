@@ -1,0 +1,18 @@
+Assembly Accession	No. proteins	BUSCO database	BUSCO result	Complete BUSCOs (C)	Complete and single-copy BUSCOs (S)	Complete and duplicated BUSCOs (D)	Fragmented BUSCOs (F)	Missing BUSCOs (M)	Total BUSCO groups searched
+GCF_009727055.1_ASM972705v1_genomic_helixer_protein.fasta	21741	embryophyta_odb12	C:93.7%[S:92.7%,D:0.9%],F:4.2%,M:2.1%,n:2026	93.7	92.7	0.9	4.2	2.1	2026
+GCA_039639715.1_ASM3963971v1_genomic_helixer_protein.fasta	20767	embryophyta_odb12	C:94.8%[S:92.3%,D:2.5%],F:3.5%,M:1.7%,n:2026	94.8	92.3	2.5	3.5	1.7	2026
+GCA_037974625.1_ASM3797462v1_genomic_helixer_protein.fasta	35859	embryophyta_odb12	C:93.8%[S:93.1%,D:0.6%],F:4.4%,M:1.8%,n:2026	93.8	93.1	0.6	4.4	1.8	2026
+GCA_049181135.1_ASM4918113v1_genomic_helixer_protein.fasta	62210	embryophyta_odb12	C:93.2%[S:92.5%,D:0.7%],F:4.9%,M:1.8%,n:2026	93.2	92.5	0.7	4.9	1.8	2026
+GCA_025688845.1_ASM2568884v1_genomic_helixer_protein.fasta	22008	embryophyta_odb12	C:95.2%[S:94.2%,D:1.0%],F:3.4%,M:1.5%,n:2026	95.2	94.2	1.0	3.4	1.5	2026
+GCA_025177605.1_USDA_Cmelo_AY_1.0_genomic_helixer_protein.fasta	32119	embryophyta_odb12	C:95.2%[S:94.2%,D:1.0%],F:3.2%,M:1.6%,n:2026	95.2	94.2	1.0	3.2	1.6	2026
+GCA_047291755.1_ASM4729175v1_genomic_helixer_protein.fasta	31292	embryophyta_odb12	C:93.7%[S:92.9%,D:0.8%],F:4.4%,M:1.9%,n:2026	93.7	92.9	0.8	4.4	1.9	2026
+GCA_000004075.3_Cucumber_9930_V3_genomic_helixer_protein.fasta	21704	embryophyta_odb12	C:95.6%[S:93.9%,D:1.7%],F:2.8%,M:1.6%,n:2026	95.6	93.9	1.7	2.8	1.6	2026
+GCA_047291735.1_ASM4729173v1_genomic_helixer_protein.fasta	32051	embryophyta_odb12	C:94.5%[S:94.0%,D:0.5%],F:3.5%,M:2.0%,n:2026	94.5	94.0	0.5	3.5	2.0	2026
+GCA_033971965.1_UNAM_Cfic_1.0_genomic_helixer_protein.fasta	30430	embryophyta_odb12	C:96.6%[S:72.5%,D:24.1%],F:2.1%,M:1.3%,n:2026	96.6	72.5	24.1	2.1	1.3	2026
+GCF_002738345.1_Cmax_1.0_genomic_helixer_protein.fasta	31343	embryophyta_odb12	C:96.1%[S:74.0%,D:22.0%],F:2.7%,M:1.3%,n:2026	96.1	74.0	22.0	2.7	1.3	2026
+GCA_002738365.1_Cmos_1.0_genomic_helixer_protein.fasta	31482	embryophyta_odb12	C:95.5%[S:72.6%,D:22.9%],F:2.9%,M:1.6%,n:2026	95.5	72.6	22.9	2.9	1.6	2026
+GCA_002806865.2_ASM280686v2_genomic_helixer_protein.fasta	36599	embryophyta_odb12	C:95.9%[S:72.1%,D:23.8%],F:2.7%,M:1.4%,n:2026	95.9	72.1	23.8	2.7	1.4	2026
+GCA_017139565.1_ASM1713956v1_genomic_helixer_protein.fasta	25063	embryophyta_odb12	C:94.7%[S:92.2%,D:2.6%],F:3.6%,M:1.7%,n:2026	94.7	92.2	2.6	3.6	1.7	2026
+GCF_001995035.1_ASM199503v1_genomic_helixer_protein.fasta	22016	embryophyta_odb12	C:92.7%[S:91.9%,D:0.8%],F:5.0%,M:2.3%,n:2026	92.7	91.9	0.8	5.0	2.3	2026
+GCA_036507275.1_ASM3650727v1_genomic_helixer_protein.fasta	28790	embryophyta_odb12	C:95.6%[S:82.1%,D:13.5%],F:3.1%,M:1.3%,n:2026	95.6	82.1	13.5	3.1	1.3	2026
+GCA_036507285.1_ASM3650728v1_genomic_helixer_protein.fasta	22296	embryophyta_odb12	C:94.3%[S:93.0%,D:1.3%],F:3.8%,M:1.9%,n:2026	94.3	93.0	1.3	3.8	1.9	2026

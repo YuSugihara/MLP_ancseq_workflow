@@ -4,6 +4,8 @@ This repository documents the workflow used to reconstruct ancestral sequences f
 
 The ancestral sequence reconstruction output is available in [data/anceseq_results_v1.3.0](data/anceseq_results_v1.3.0/).
 
+The Helixer-derived proteome dataset used in this workflow is archived on Zenodo: [https://doi.org/10.5281/zenodo.19952181](https://doi.org/10.5281/zenodo.19952181).
+
 ## Repository Contents
 
 - [data/](data/): input and intermediate FASTA, metadata, alignment, and tree files

@@ -6,6 +6,8 @@ Generate the proteome dataset used for the IPR000916 search. Gene models were pr
 
 BUSCO was run on the Helixer-derived proteomes to summarize proteome completeness. The filtered summary for the assemblies used in this repository is available at [data/metadata/busco_summary.tsv](../data/metadata/busco_summary.tsv).
 
+The Helixer-derived proteome dataset is archived on Zenodo: [https://doi.org/10.5281/zenodo.19952181](https://doi.org/10.5281/zenodo.19952181).
+
 ## Inputs
 
 - Genome FASTA files for the assemblies listed in [data/metadata/NCBI_list.txt](../data/metadata/NCBI_list.txt)
